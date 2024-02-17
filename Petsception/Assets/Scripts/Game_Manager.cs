@@ -17,6 +17,7 @@ public class Game_Manager : MonoBehaviour
     [SerializeField]
     private List<Pet> pets;
 
+    public GameEvent gameEvent;
     // Start is called before the first frame update
     void Awake()
     {
@@ -36,6 +37,24 @@ public class Game_Manager : MonoBehaviour
     {
         timeToSolveInSeconds -= Time.deltaTime;
         updateTimer();
+
+        if(Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            Debug.Log("Switch dog");
+            gameEvent.Raise(this, pets[0]);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            Debug.Log("Switch cat");
+            gameEvent.Raise(this, pets[1]);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            Debug.Log("Switch chameleon");
+            gameEvent.Raise(this, pets[2]);
+        }
     }
 
     private void updateTimer()
