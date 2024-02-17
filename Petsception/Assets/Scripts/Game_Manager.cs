@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Game_Manager : MonoBehaviour
 {
-    public static Game_Manager instance {get; private set;}
+    public static Game_Manager instance { get; private set; }
 
     [SerializeField]
     float timeToSolveInSeconds;
@@ -18,6 +18,11 @@ public class Game_Manager : MonoBehaviour
     private List<Pet> pets;
 
     public GameEvent gameEvent;
+
+    [SerializeField]
+    private GameObject gameOverMenu;
+
+    private bool isGameOver;
     // Start is called before the first frame update
     void Awake()
     {
@@ -29,7 +34,7 @@ public class Game_Manager : MonoBehaviour
         {
             instance = this;
         }
-       
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -65,9 +70,20 @@ public class Game_Manager : MonoBehaviour
 
         if(seconds==0 && minutes==0)
         {
-            //SceneManager.LoadScene(0);
+            isGameOver = true;
+            Time.timeScale = 0;
+            gameOverMenu.SetActive(true);
         }
     }
 
-    
+    public bool getIsGameOver()
+    {
+        return isGameOver;
+    }
+
+    public void reloadLevel()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
