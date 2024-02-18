@@ -253,12 +253,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4471e2ca9929045b577cb22dadc403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToSolveInSeconds: 10
+  timeToSolveInSeconds: 180
   timerText: {fileID: 2870311942973773644}
   pets:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  dog: {fileID: 0}
+  cat: {fileID: 0}
+  chameleon: {fileID: 0}
   gameEvent: {fileID: 11400000, guid: c41ddd85c45c8c542ad6476153d2c4c9, type: 2}
   gameOverMenu: {fileID: 2870311944209455441}
 --- !u!114 &2870311942758751194

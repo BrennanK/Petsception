@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Pet : MonoBehaviour
 {
+    [SerializeField]
     protected bool inControl; // bool used to determine which character the player has control off
 
     [SerializeField] protected float movementSpeed;

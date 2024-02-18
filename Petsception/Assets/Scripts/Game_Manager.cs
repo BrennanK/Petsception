@@ -17,6 +17,15 @@ public class Game_Manager : MonoBehaviour
     [SerializeField]
     private List<Pet> pets;
 
+    [SerializeField]
+    private Dog dog;
+
+    [SerializeField]
+    private Cat cat;
+
+    [SerializeField]
+    private Chameleon chameleon;
+
     public GameEvent gameEvent;
 
     [SerializeField]
@@ -46,19 +55,31 @@ public class Game_Manager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             Debug.Log("Switch dog");
-            gameEvent.Raise(this, pets[0]);
+            gameEvent.Raise(this, dog);
+            
+            dog.setInControl(true);
+            cat.setInControl(false);
+            chameleon.setInControl(false);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             Debug.Log("Switch cat");
-            gameEvent.Raise(this, pets[1]);
+            gameEvent.Raise(this, cat);
+
+            dog.setInControl(false);
+            cat.setInControl(true);
+            chameleon.setInControl(false);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             Debug.Log("Switch chameleon");
-            gameEvent.Raise(this, pets[2]);
+            gameEvent.Raise(this, chameleon);
+
+            dog.setInControl(false);
+            cat.setInControl(false);
+            chameleon.setInControl(true);
         }
     }
 
