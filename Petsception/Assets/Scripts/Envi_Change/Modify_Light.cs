@@ -10,9 +10,11 @@ public class Modify_Light : MonoBehaviour
 
     [SerializeField]private float catVisionLightIntensity;
 
+    private float originalLightIntensity;
     private void Awake()
     {
         //lightAffected = GetComponent<Light2D>();
+        originalLightIntensity = lightAffected.intensity;
     }
     public void DebugSender(Component sender, object data)
     {
@@ -36,7 +38,7 @@ public class Modify_Light : MonoBehaviour
     {
         if (data is Dog)
         {
-            lightAffected.intensity = 1;
+            lightAffected.intensity = originalLightIntensity;
         }
 
         if (data is Cat)
@@ -46,7 +48,7 @@ public class Modify_Light : MonoBehaviour
 
         if (data is Chameleon)
         {
-            lightAffected.intensity = 1;
+            lightAffected.intensity = originalLightIntensity;
         }
     }
 }
