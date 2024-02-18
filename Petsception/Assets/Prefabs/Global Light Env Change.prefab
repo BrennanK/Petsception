@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightAffected: {fileID: 1095819195915434451}
-  catVisionLightIntensity: 0.65
+  catVisionLightIntensity: 1
 --- !u!114 &1095819195915434449
 MonoBehaviour:
   m_ObjectHideFlags: 0
