@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Rendering.Universal;
 public class Lever : MonoBehaviour
 {
     //private bool canActivate;
@@ -20,10 +20,15 @@ public class Lever : MonoBehaviour
     private Sprite flippedSprite;
 
     private SpriteRenderer sr;
+
+    public Light2D lightAffected;
+
+    private float originalLightIntensity;
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         flipped = false;
+        originalLightIntensity = lightAffected.intensity;
     }
 
     private void Update()
@@ -33,6 +38,7 @@ public class Lever : MonoBehaviour
             Debug.Log("E pressed");
             flipped = true;
             sr.sprite = flippedSprite;
+            lightAffected.intensity = 0f;
             InvokeRepeating("checkForFlipBack", Time.deltaTime, Time.deltaTime);
         }
     }
@@ -60,6 +66,7 @@ public class Lever : MonoBehaviour
             flipped = false;
             timePassed = 0;
             sr.sprite = unflippedSprite;
+            lightAffected.intensity = originalLightIntensity;
             CancelInvoke();
             return;
         }

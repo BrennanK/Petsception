@@ -5,12 +5,17 @@ using UnityEngine;
 public class Cat : Pet
 {
     private Rigidbody2D rigidBody;
+    private BoxCollider2D box;
+
+    [SerializeField]
+    private LayerMask ground;
     // Start is called before the first frame update
     void Start()
     {
         //inControl = false;
        // Debug.Log("Cat control: " + inControl);
         rigidBody = GetComponent<Rigidbody2D>();
+        box = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -24,7 +29,10 @@ public class Cat : Pet
         float dirX = Input.GetAxisRaw("Horizontal");
         rigidBody.velocity = new Vector2(dirX * movementSpeed, rigidBody.velocity.y);
 
-
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
+        {
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpHeight);
+        }
     }
 
     public override void petAbility()
@@ -37,5 +45,8 @@ public class Cat : Pet
         inControl = newValue;
     }
 
-   
+    private bool isGrounded()
+    {
+        return Physics2D.BoxCast(box.bounds.center, box.bounds.size, 0f, Vector2.down, .1f, ground);
+    }
 }
