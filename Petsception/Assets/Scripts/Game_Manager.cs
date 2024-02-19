@@ -31,6 +31,9 @@ public class Game_Manager : MonoBehaviour
     [SerializeField]
     private GameObject gameOverMenu;
 
+    [SerializeField]
+    private GameObject nextPuzzleMenu;
+
     private bool isGameOver;
     // Start is called before the first frame update
     void Awake()
@@ -54,7 +57,7 @@ public class Game_Manager : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Debug.Log("Switch dog");
+            //Debug.Log("Switch dog");
             gameEvent.Raise(this, dog);
             
             dog.setInControl(true);
@@ -64,7 +67,7 @@ public class Game_Manager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Debug.Log("Switch cat");
+           // Debug.Log("Switch cat");
             gameEvent.Raise(this, cat);
 
             dog.setInControl(false);
@@ -74,7 +77,7 @@ public class Game_Manager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            Debug.Log("Switch chameleon");
+           // Debug.Log("Switch chameleon");
             gameEvent.Raise(this, chameleon);
 
             dog.setInControl(false);
@@ -106,5 +109,11 @@ public class Game_Manager : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void solvedPuzzle()
+    {
+        Time.timeScale = 0;
+        nextPuzzleMenu.SetActive(true);
     }
 }
