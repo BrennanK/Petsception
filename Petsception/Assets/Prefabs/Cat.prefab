@@ -147,5 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inControl: 0
-  movementSpeed: 4
-  jumpHeight: 0
+  movementSpeed: 6
+  jumpHeight: 8
+  ground:
+    serializedVersion: 2
+    m_Bits: 512

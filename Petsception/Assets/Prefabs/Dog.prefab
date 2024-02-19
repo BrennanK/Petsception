@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2343930289001028268}
   - component: {fileID: 2343930289001028267}
   - component: {fileID: 2343930289001028266}
+  - component: {fileID: 8113577153474514678}
   m_Layer: 7
   m_Name: Dog
   m_TagString: Player
@@ -147,5 +148,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inControl: 0
-  movementSpeed: 2
-  jumpHeight: 0
+  movementSpeed: 4
+  jumpHeight: 5
+  ground:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!95 &8113577153474514678
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2343930289001028265}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe9583c09aa20034ea841bd3c85c05ff, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

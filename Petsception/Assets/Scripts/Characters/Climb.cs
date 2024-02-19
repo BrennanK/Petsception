@@ -14,10 +14,18 @@ public class Climb : MonoBehaviour
     private bool isClimbing;
 
     private Rigidbody2D rigidBody;
+
+    private Quaternion initialQuat;
+
+    public bool getIsClimbable()
+    {
+        return isClimbable;
+    }
     // Start is called before the first frame update
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
+        initialQuat = transform.localRotation;
     }
 
     // Update is called once per frame
@@ -50,6 +58,8 @@ public class Climb : MonoBehaviour
         if(collision.CompareTag("Climbable"))
         {
             isClimbable = true;
+            //setClimbRotation();
+            //this.gameObject.GetComponent<Chameleon>().getAnimator().SetBool("startClimb", true);
         }
     }
 
@@ -59,6 +69,20 @@ public class Climb : MonoBehaviour
         {
             isClimbable = false;
             isClimbing = false;
+            //this.gameObject.GetComponent<Chameleon>().getAnimator().SetBool("startClimb", false);
+            //resetRotation(270);
         }
+    }
+
+    public void setClimbRotation()
+    {
+        transform.Rotate(0,0,-90);
+        //transform.rotation = new Quaternion(0, 0, -90, 0);
+    }
+
+    private void resetRotation(float degrees)
+    {
+        transform.Rotate(0, 0, degrees);
+       // transform.rotation = initialQuat;
     }
 }
