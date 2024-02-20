@@ -20,6 +20,12 @@ public class Chameleon : Pet
 
     private bool isToggled;
 
+    private bool canActivate;
+
+    public void setCanActivate(bool newValue)
+    {
+        canActivate = newValue;
+    }
     public bool getToggled()
     {
         return isToggled;
@@ -37,7 +43,7 @@ public class Chameleon : Pet
         rigidBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         box = GetComponent<BoxCollider2D>();
-
+        canActivate = true;
         r = GetComponent<SpriteRenderer>();
         originalColor = r.color;
     }
@@ -89,16 +95,13 @@ public class Chameleon : Pet
 
     public override void petAbility()
     {
-        //RaycastHit2D hit = Physics2D.Raycast(this.transform.position, this.transform.up, 1.0f);
 
-        //Debug.Log("This is the point of contact: "+hit.point);
-
-        if(isToggled==true)
+        if(isToggled==true && canActivate==true)
         {
             isToggled = false;
             r.color = originalColor;
         }
-        else
+        else if(isToggled == false && canActivate == true)
         {
             isToggled = true;
             r.color = camoColor;
@@ -109,5 +112,25 @@ public class Chameleon : Pet
     private bool isGrounded()
     {
         return Physics2D.BoxCast(box.bounds.center, box.bounds.size, 0f, Vector2.down, .1f, ground);
+    }
+
+    public void toggleCamoAbility(Component sender, object data)
+    {
+
+        bool canBeActive = (bool)data;
+
+        if(canBeActive)
+        {
+            canActivate = true;
+        }
+        else
+        {
+            
+            if(isToggled)
+            {
+                petAbility();
+            }
+            canActivate = false;
+        }
     }
 }

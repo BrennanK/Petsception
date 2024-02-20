@@ -15,17 +15,22 @@ public class Climb : MonoBehaviour
 
     private Rigidbody2D rigidBody;
 
-    private Quaternion initialQuat;
+    public GameEvent climbEvent;
 
     public bool getIsClimbable()
     {
         return isClimbable;
     }
+
+    public void setIsClimabale(bool newValue)
+    {
+        isClimbable = newValue;
+    }
     // Start is called before the first frame update
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
-        initialQuat = transform.localRotation;
+        
     }
 
     // Update is called once per frame
@@ -45,6 +50,7 @@ public class Climb : MonoBehaviour
         {
             rigidBody.gravityScale = 0f;
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, verticalDirection * climbSpeed);
+            setClimbRotation();
         }
         else
         {
@@ -54,10 +60,11 @@ public class Climb : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("We enetered Climb trigger");
+        //Debug.Log("We enetered Climb trigger");
         if(collision.CompareTag("Climbable"))
         {
             isClimbable = true;
+            climbEvent.Raise(this, gameObject.GetComponent<Chameleon>());
             //setClimbRotation();
             //this.gameObject.GetComponent<Chameleon>().getAnimator().SetBool("startClimb", true);
         }
@@ -70,19 +77,30 @@ public class Climb : MonoBehaviour
             isClimbable = false;
             isClimbing = false;
             //this.gameObject.GetComponent<Chameleon>().getAnimator().SetBool("startClimb", false);
-            //resetRotation(270);
+            resetRotation();
+            gameObject.GetComponent<Chameleon>().toggleCamoAbility(this, true);
         }
     }
 
     public void setClimbRotation()
     {
-        transform.Rotate(0,0,-90);
+        //transform.Rotate(0,0,-90);
+        if(verticalDirection==0)
+        {
+            return;
+        }
+        transform.rotation = Quaternion.LookRotation(new Vector3(0,0,1),new Vector3(verticalDirection,0,0));
+        if(verticalDirection<0)
+        {
+            transform.rotation=new Quaternion(transform.rotation.x, transform.rotation.y*-1, transform.rotation.z, transform.rotation.w);
+        }
+       // Debug.Log("This is new rotate: " + transform.rotation);
         //transform.rotation = new Quaternion(0, 0, -90, 0);
     }
 
-    private void resetRotation(float degrees)
+    private void resetRotation()
     {
-        transform.Rotate(0, 0, degrees);
-       // transform.rotation = initialQuat;
+        transform.rotation = Quaternion.LookRotation(new Vector3(0,0,1), new Vector3(0, verticalDirection, 0));
+        // transform.rotation = initialQuat;
     }
 }
