@@ -11,7 +11,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2021.1.14.8108/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../../../../P1/Game Jams/Petsception/Wwise/Petsception_WwiseProject/Petsception_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../Petsception/Petsception_WwiseProject/Petsception_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>

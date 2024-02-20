@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: ad8fa1412690ef4abe2d31631ad2312b
     GuidInternal: 
-    m_lastTime: -8584931521520986193
+    m_lastTime: -8584931521520986194
     List:
     - name: CatSelected
       guid: ed0b10030db4834a8f070d52cf1c35ee
@@ -393,8 +393,8 @@ MonoBehaviour:
         guid: b67906b853740540a7b354bd3afc2c2d
       Path: Triggers/Default Work Unit/DogBark
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e0000000f0000001500000016000000
-  AutoSyncSelection: 1
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
   CurrentPluginConfig: 
