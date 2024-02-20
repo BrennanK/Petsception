@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Characters" ID="{87CD6810-5F66-4243-9208-E5016BC259C2}">
+					<ChildrenList>
+						<Switch Name="Dog" ID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}"/>
+						<Switch Name="Cat" ID="{710C8DAA-1F94-4340-BFFF-FE563208C55A}"/>
+						<Switch Name="Chameleon" ID="{6A1C60FE-A6BA-4615-A241-48E784777D13}"/>
+						<Switch Name="Background" ID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

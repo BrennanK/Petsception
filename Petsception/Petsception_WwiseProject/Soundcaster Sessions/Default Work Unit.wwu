@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{402E915B-AD75-4428-8CC4-916F7B1C5F04}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{402E915B-AD75-4428-8CC4-916F7B1C5F04}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MusicTest" ID="{AA53ED3B-B71E-4634-93BB-ED0BA51B05FE}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="CatSelected" ID="{03100BED-B40D-4A83-8F07-0D52CF1C35EE}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ChameleonSelected" ID="{79748E27-A6A4-4336-AF85-FFECFE4BA07F}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{66EBD2E1-09B8-41C4-A18E-A8F36322470D}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DogSelected" ID="{7D474039-2090-4681-B39B-61DA0E51CA69}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX" ID="{06EFCC08-CDA5-47A6-9ED6-E05125810365}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PetMusicPlay" ID="{1443ED91-0322-4B6D-A670-8399DB870E07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Volume" ID="{7CA2F1F6-ACE5-4AC3-A19B-C66CBF554DE2}"/>
+							<Value>52</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dog" ID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

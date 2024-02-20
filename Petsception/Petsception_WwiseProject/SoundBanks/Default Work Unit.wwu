@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{914A2A45-76C9-44A4-ABE4-3B1C474CEBD8}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{914A2A45-76C9-44A4-ABE4-3B1C474CEBD8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Petsception" ID="{962AB21A-E9A0-4F35-855F-C46C3A32DD89}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ChameleonSelected" ID="{79748E27-A6A4-4336-AF85-FFECFE4BA07F}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DogSelected" ID="{7D474039-2090-4681-B39B-61DA0E51CA69}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CatSelected" ID="{03100BED-B40D-4A83-8F07-0D52CF1C35EE}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PetMusicPlay" ID="{1443ED91-0322-4B6D-A670-8399DB870E07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PetMusicPlay" ID="{1443ED91-0322-4B6D-A670-8399DB870E07}">
+					<ChildrenList>
+						<Action Name="" ID="{C44FEBA8-4398-4391-9586-EF00EF3C56AA}" ShortID="432395969">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{574C90A5-C0AB-4005-92C3-CE0D962217F2}" ShortID="1049241972">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PetMusic" ID="{874B65B0-1DEF-4815-A7C7-1472A3A2DDE3}" WorkUnitID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DogSelected" ID="{7D474039-2090-4681-B39B-61DA0E51CA69}">
+					<ChildrenList>
+						<Action Name="" ID="{2686F3FB-E396-40A2-86F1-19325627E882}" ShortID="930991843">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dog" ID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{369A4E91-776C-47BA-9778-B4F7B85556C6}" ShortID="287163828">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DogBark" ID="{B80679B6-7453-4005-A7B3-54BD3AFC2C2D}" WorkUnitID="{637C59BA-ADB0-49E9-AB52-91C8D1FB6C92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CatSelected" ID="{03100BED-B40D-4A83-8F07-0D52CF1C35EE}">
+					<ChildrenList>
+						<Action Name="" ID="{80B40CF5-534B-447C-AFCE-5C5383645580}" ShortID="410986555">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cat" ID="{710C8DAA-1F94-4340-BFFF-FE563208C55A}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{07196866-3077-44E9-9E5C-1F6136438F03}" ShortID="795141490">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CatMeow" ID="{63B86CF9-FB0C-4D4C-90B7-5262CC73E28E}" WorkUnitID="{637C59BA-ADB0-49E9-AB52-91C8D1FB6C92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ChameleonSelected" ID="{79748E27-A6A4-4336-AF85-FFECFE4BA07F}">
+					<ChildrenList>
+						<Action Name="" ID="{9F545BC7-843C-4FA3-86FA-782113471A06}" ShortID="48965738">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chameleon" ID="{6A1C60FE-A6BA-4615-A241-48E784777D13}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{541CC34C-695D-43A1-9A2C-0A8E36B8F294}" ShortID="127561240">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChameleonSound" ID="{FB2FA110-F0D2-4DAE-8D87-26A53150A588}" WorkUnitID="{637C59BA-ADB0-49E9-AB52-91C8D1FB6C92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
