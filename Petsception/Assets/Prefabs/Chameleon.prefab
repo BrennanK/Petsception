@@ -154,6 +154,7 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 512
+  camoColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &5372932502424523925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   climbSpeed: 4
+  climbEvent: {fileID: 11400000, guid: dc9e7f62ae1c7834da66090297e1c17f, type: 2}
 --- !u!95 &4167227020609024109
 Animator:
   serializedVersion: 5
