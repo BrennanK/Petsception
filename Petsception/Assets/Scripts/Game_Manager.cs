@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Game_Manager : MonoBehaviour
 {
-    public static Game_Manager instance {get; private set;}
+    public static Game_Manager instance { get; private set; }
 
     [SerializeField]
     float timeToSolveInSeconds;
@@ -17,7 +17,24 @@ public class Game_Manager : MonoBehaviour
     [SerializeField]
     private List<Pet> pets;
 
+    [SerializeField]
+    private Dog dog;
+
+    [SerializeField]
+    private Cat cat;
+
+    [SerializeField]
+    private Chameleon chameleon;
+
     public GameEvent gameEvent;
+
+    [SerializeField]
+    private GameObject gameOverMenu;
+
+    [SerializeField]
+    private GameObject nextPuzzleMenu;
+
+    private bool isGameOver;
     // Start is called before the first frame update
     void Awake()
     {
@@ -29,7 +46,7 @@ public class Game_Manager : MonoBehaviour
         {
             instance = this;
         }
-       
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -40,20 +57,32 @@ public class Game_Manager : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Debug.Log("Switch dog");
-            gameEvent.Raise(this, pets[0]);
+            //Debug.Log("Switch dog");
+            gameEvent.Raise(this, dog);
+            
+            dog.setInControl(true);
+            cat.setInControl(false);
+            chameleon.setInControl(false);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Debug.Log("Switch cat");
-            gameEvent.Raise(this, pets[1]);
+           // Debug.Log("Switch cat");
+            gameEvent.Raise(this, cat);
+
+            dog.setInControl(false);
+            cat.setInControl(true);
+            chameleon.setInControl(false);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            Debug.Log("Switch chameleon");
-            gameEvent.Raise(this, pets[2]);
+           // Debug.Log("Switch chameleon");
+            gameEvent.Raise(this, chameleon);
+
+            dog.setInControl(false);
+            cat.setInControl(false);
+            chameleon.setInControl(true);
         }
     }
 
@@ -65,9 +94,26 @@ public class Game_Manager : MonoBehaviour
 
         if(seconds==0 && minutes==0)
         {
-            //SceneManager.LoadScene(0);
+            isGameOver = true;
+            Time.timeScale = 0;
+            gameOverMenu.SetActive(true);
         }
     }
 
-    
+    public bool getIsGameOver()
+    {
+        return isGameOver;
+    }
+
+    public void reloadLevel()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void solvedPuzzle()
+    {
+        Time.timeScale = 0;
+        nextPuzzleMenu.SetActive(true);
+    }
 }
