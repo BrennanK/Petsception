@@ -9862,6 +9862,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208560839 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2870311943740531364, guid: e9e0fcc054d478b478a6ba53293f3129, type: 3}
+  m_PrefabInstance: {fileID: 1372628837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1372628837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9981,12 +9992,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2870311943232036694, guid: e9e0fcc054d478b478a6ba53293f3129, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2870311944302365602, guid: e9e0fcc054d478b478a6ba53293f3129, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2870311944376174313, guid: e9e0fcc054d478b478a6ba53293f3129, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3192765439914733078, guid: e9e0fcc054d478b478a6ba53293f3129, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7970039913039845098, guid: e9e0fcc054d478b478a6ba53293f3129, type: 3}
@@ -10045,11 +10064,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1445222286 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2870311944302365603, guid: e9e0fcc054d478b478a6ba53293f3129, type: 3}
-  m_PrefabInstance: {fileID: 1372628837}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1465297185
 GameObject:
   m_ObjectHideFlags: 0
@@ -10228,13 +10242,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501672295}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 199d435dab73f48568ca28e794d5734c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SliderHandle: {fileID: 1445222286}
-  VolumeFloat: 0
+  SliderHandle: {fileID: 1208560839}
+  VolumeFloat: 0.4
   VolumeRTPC:
     idInternal: 0
     valueGuidInternal: 
