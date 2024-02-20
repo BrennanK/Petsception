@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fa4e080648345d6b110b4a7bdc3a28, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7dd21af3d407ea488635f41819333a1f
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 7dd21af3d407ea488635f41819333a1f
+    GuidInternal: 
+    m_lastTime: -8584931426215526045
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 80f35687b51afe44a0b5859c63c503d9
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 80f35687b51afe44a0b5859c63c503d9
+    GuidInternal: 
+    m_lastTime: -8584931426219226872
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80f35687b51afe44a0b5859c63c503d9
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: e1d2eb66b809c441a18ea8f36322470d
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80f35687b51afe44a0b5859c63c503d9
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: e1d2eb66b809c441a18ea8f36322470d
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+    - name: SFX
+      guid: 08ccef06a5cda6479ed6e05125810365
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80f35687b51afe44a0b5859c63c503d9
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 08ccef06a5cda6479ed6e05125810365
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 452a4a91c976a444abe43b1c474cebd8
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 452a4a91c976a444abe43b1c474cebd8
+    GuidInternal: 
+    m_lastTime: -8584931426215536052
+    List:
+    - name: Petsception
+      guid: 1ab22a96a0e9354f855fc46c3a32dd89
+      id: 4154448043
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 452a4a91c976a444abe43b1c474cebd8
+      - ElementName: Petsception
+        ObjectType: 7
+        guid: 1ab22a96a0e9354f855fc46c3a32dd89
+      Path: SoundBanks\Default Work Unit\Petsception
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ad8fa1412690ef4abe2d31631ad2312b
+    ParentPath: Events\Default Work Unit
+    guid: ad8fa1412690ef4abe2d31631ad2312b
+    GuidInternal: 
+    m_lastTime: -8584931426224272006
+    List:
+    - name: CatSelected
+      guid: ed0b10030db4834a8f070d52cf1c35ee
+      id: 3024246768
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: CatSelected
+        ObjectType: 3
+        guid: ed0b10030db4834a8f070d52cf1c35ee
+      Path: Events\Default Work Unit\CatSelected
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ChameleonSelected
+      guid: 278e7479a4a63643af85ffecfe4ba07f
+      id: 202981074
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: ChameleonSelected
+        ObjectType: 3
+        guid: 278e7479a4a63643af85ffecfe4ba07f
+      Path: Events\Default Work Unit\ChameleonSelected
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: DogSelected
+      guid: 3940477d90208146b39b61da0e51ca69
+      id: 4114262194
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: DogSelected
+        ObjectType: 3
+        guid: 3940477d90208146b39b61da0e51ca69
+      Path: Events\Default Work Unit\DogSelected
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PetMusicPlay
+      guid: 91ed431422036d4ba6708399db870e07
+      id: 2891037199
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: PetMusicPlay
+        ObjectType: 3
+        guid: 91ed431422036d4ba6708399db870e07
+      Path: Events\Default Work Unit\PetMusicPlay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1d36b8083356f24b985e720b54a90b21
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 1d36b8083356f24b985e720b54a90b21
+    GuidInternal: 
+    m_lastTime: -8584931426224262002
+    List:
+    - name: Volume
+      guid: f6f1a27ce5acc34aa19bc66cbf554de2
+      id: 2415836739
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d36b8083356f24b985e720b54a90b21
+      - ElementName: Volume
+        ObjectType: 13
+        guid: f6f1a27ce5acc34aa19bc66cbf554de2
+      Path: Game Parameters\Default Work Unit\Volume
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a5b8e9d37af603449cd214a7d4f45f7e
+    ParentPath: States\Default Work Unit
+    guid: a5b8e9d37af603449cd214a7d4f45f7e
+    GuidInternal: 
+    m_lastTime: -8584931426215536052
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 66dc2b7027a2aa42b34994b95c4cc1bb
+    ParentPath: Switches\Default Work Unit
+    guid: 66dc2b7027a2aa42b34994b95c4cc1bb
+    GuidInternal: 
+    m_lastTime: -8584931426215536052
+    List:
+    - name: Characters
+      guid: 1068cd87665f43429208e5016bc259c2
+      id: 1557941045
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 66dc2b7027a2aa42b34994b95c4cc1bb
+      - ElementName: Characters
+        ObjectType: 11
+        guid: 1068cd87665f43429208e5016bc259c2
+      Path: Switches\Default Work Unit\Characters
+      values:
+      - name: Background
+        guid: fb60dc9cb01e81498733cd6f040fa1ea
+        id: 3650723969
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 66dc2b7027a2aa42b34994b95c4cc1bb
+        - ElementName: Characters
+          ObjectType: 11
+          guid: 1068cd87665f43429208e5016bc259c2
+        - ElementName: Background
+          ObjectType: 10
+          guid: fb60dc9cb01e81498733cd6f040fa1ea
+      - name: Cat
+        guid: aa8d0c71941f4043bffffe563208c55a
+        id: 983016379
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 66dc2b7027a2aa42b34994b95c4cc1bb
+        - ElementName: Characters
+          ObjectType: 11
+          guid: 1068cd87665f43429208e5016bc259c2
+        - ElementName: Cat
+          ObjectType: 10
+          guid: aa8d0c71941f4043bffffe563208c55a
+      - name: Chameleon
+        guid: fe601c6abaa61546a24148e784777d13
+        id: 398416717
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 66dc2b7027a2aa42b34994b95c4cc1bb
+        - ElementName: Characters
+          ObjectType: 11
+          guid: 1068cd87665f43429208e5016bc259c2
+        - ElementName: Chameleon
+          ObjectType: 10
+          guid: fe601c6abaa61546a24148e784777d13
+      - name: Dog
+        guid: 90c354e3fe76ca43bee68f1c63a438c8
+        id: 546651181
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 66dc2b7027a2aa42b34994b95c4cc1bb
+        - ElementName: Characters
+          ObjectType: 11
+          guid: 1068cd87665f43429208e5016bc259c2
+        - ElementName: Dog
+          ObjectType: 10
+          guid: 90c354e3fe76ca43bee68f1c63a438c8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ba597c63b0ade949ab5291c8d1fb6c92
+    ParentPath: Triggers\Default Work Unit
+    guid: ba597c63b0ade949ab5291c8d1fb6c92
+    GuidInternal: 
+    m_lastTime: -8584931426215526045
+    List:
+    - name: CatMeow
+      guid: f96cb8630cfb4c4d90b75262cc73e28e
+      id: 2633149251
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ba597c63b0ade949ab5291c8d1fb6c92
+      - ElementName: CatMeow
+        ObjectType: 14
+        guid: f96cb8630cfb4c4d90b75262cc73e28e
+      Path: Triggers\Default Work Unit\CatMeow
+    - name: ChameleonSound
+      guid: 10a12ffbd2f0ae4d8d8726a53150a588
+      id: 1887853562
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ba597c63b0ade949ab5291c8d1fb6c92
+      - ElementName: ChameleonSound
+        ObjectType: 14
+        guid: 10a12ffbd2f0ae4d8d8726a53150a588
+      Path: Triggers\Default Work Unit\ChameleonSound
+    - name: DogBark
+      guid: b67906b853740540a7b354bd3afc2c2d
+      id: 4158688515
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ba597c63b0ade949ab5291c8d1fb6c92
+      - ElementName: DogBark
+        ObjectType: 14
+        guid: b67906b853740540a7b354bd3afc2c2d
+      Path: Triggers\Default Work Unit\DogBark
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

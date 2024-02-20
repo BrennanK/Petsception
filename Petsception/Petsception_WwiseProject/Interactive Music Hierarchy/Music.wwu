@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}" SchemaVersion="103" RootDocumentID="{705228DE-55F4-41CB-8660-9955337E4897}" ParentDocumentID="{705228DE-55F4-41CB-8660-9955337E4897}">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}" OwnerID="{705228DE-55F4-41CB-8660-9955337E4897}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="PetMusic" ID="{874B65B0-1DEF-4815-A7C7-1472A3A2DDE3}" ShortID="260925637">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="68"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{66EBD2E1-09B8-41C4-A18E-A8F36322470D}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Characters" ID="{35743223-E393-4BAB-9327-DAF105E85EED}" ShortID="913150792">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="60000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Music_Background_68bpm_4-4_L16M_P0" ID="{AE5182FF-DC71-419B-A36B-EC06CBE3E440}" ShortID="398334226">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Background_68bpm_4-4_L16M_P0" ID="{EC7F35E3-A69A-4ED0-85D5-DACE8E5645B3}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Music_Background_68bpm_4-4_L16M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="279185434"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EF093F1F-7E6D-4D67-8A1C-F29568F16EB1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{AC9176CB-7641-4B8E-820D-1BE9C268CFA4}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Music_Background_68bpm_4-4_L16M_P0" ID="{DF720EFE-9754-424B-B325-C6C3A55ECCAA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Music_Background_68bpm_4-4_L16M_P0" ID="{EC7F35E3-A69A-4ED0-85D5-DACE8E5645B3}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Characters" ID="{B465C454-2E3E-4897-9D9D-D869FC66D894}" ShortID="463627227">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Background" ID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Characters" ID="{87CD6810-5F66-4243-9208-E5016BC259C2}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Dog_68bpm_4-4_L16M_P0" ID="{7199B42C-8711-4F91-865F-F050CB4247D8}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Music_Dog_68bpm_4-4_L16M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="316565971"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Music_Chameleon_68bpm_4-4_L16MP0" ID="{FD243844-56F0-4AAA-89DE-9A23015BFB6C}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Music_Chameleon_68bpm_4-4_L16MP0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696646933"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Music_Cat_68bpm_4-4_L16M_P0" ID="{E7AB2473-2B14-42A8-AA0A-56B828D35B9B}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Music_Cat_68bpm_4-4_L16M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="950107177"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{079F6234-9AA4-4F84-A8E4-3385327E7569}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{BB1CDCCA-D7CE-4F1A-898F-51111E1CA06F}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{EE022CCA-EB87-4319-96D3-1AE169CE41DA}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{C7EAE206-4EA8-472D-9520-930DC2062A27}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="8"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1.2"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{84713562-1483-4132-B2E8-30F876D2EB41}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Music_Dog_68bpm_4-4_L16M_P0" ID="{30F7FA4C-1F93-45B8-9FF6-75BC220AAF6A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Music_Dog_68bpm_4-4_L16M_P0" ID="{7199B42C-8711-4F91-865F-F050CB4247D8}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Dog" ID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D58ECC74-086D-4949-AC02-5BD334E6207F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Music_Cat_68bpm_4-4_L16M_P0" ID="{B479D445-20C7-4298-A015-D901918F3D7A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Music_Cat_68bpm_4-4_L16M_P0" ID="{E7AB2473-2B14-42A8-AA0A-56B828D35B9B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Cat" ID="{710C8DAA-1F94-4340-BFFF-FE563208C55A}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{498AE0BA-9C01-495B-AC7A-9064E82BD120}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Music_Chameleon_68bpm_4-4_L16MP0" ID="{6EA51F8B-B2C9-4679-9EDE-2017A9E68B04}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Music_Chameleon_68bpm_4-4_L16MP0" ID="{FD243844-56F0-4AAA-89DE-9A23015BFB6C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Chameleon" ID="{6A1C60FE-A6BA-4615-A241-48E784777D13}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4C85CBC8-14B0-4AF4-A46F-A1798B27F8C8}">
+														<ObjectLists/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Background" ID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{42ECD3BD-173A-414D-855D-74AB0FFE7C01}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{9AEF2E4A-26A2-4BD3-9120-882EDE138122}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="56470.5882352941"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{85A44816-434A-4246-ABC9-69F04166747B}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{6913A9D4-DF19-4985-B519-D854630738AE}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists>
+						<ObjectList Name="Stingers">
+							<Reference>
+								<Local>
+									<MusicStinger Name="" ID="{5B5A5336-7C8E-48AB-B339-2B8384DC9ADB}">
+										<PropertyList>
+											<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+										</PropertyList>
+										<TriggerRef Name="CatMeow" ID="{63B86CF9-FB0C-4D4C-90B7-5262CC73E28E}" WorkUnitID="{637C59BA-ADB0-49E9-AB52-91C8D1FB6C92}"/>
+										<SegmentRef Name="Stinger_CatMeow_68bpm_4-4_L1B_P0" ID="{BBDCDF5D-DA94-410E-A940-17247777E34B}" WorkUnitID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}"/>
+									</MusicStinger>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicStinger Name="" ID="{E31B367B-6A77-4169-A818-1CBEBD92225A}">
+										<PropertyList>
+											<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+										</PropertyList>
+										<TriggerRef Name="DogBark" ID="{B80679B6-7453-4005-A7B3-54BD3AFC2C2D}" WorkUnitID="{637C59BA-ADB0-49E9-AB52-91C8D1FB6C92}"/>
+										<SegmentRef Name="Stinger_DogBark_68bpm_L1B_P0" ID="{3B032CC4-AF87-4F46-936C-4D9EADF0DA0B}" WorkUnitID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}"/>
+									</MusicStinger>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicStinger Name="" ID="{920C5EE8-E452-4160-92FC-54BD65E4DC9B}">
+										<PropertyList>
+											<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+										</PropertyList>
+										<TriggerRef Name="ChameleonSound" ID="{FB2FA110-F0D2-4DAE-8D87-26A53150A588}" WorkUnitID="{637C59BA-ADB0-49E9-AB52-91C8D1FB6C92}"/>
+										<SegmentRef Name="Stinger_Chameleon_68bpm_L1B_P0" ID="{A4D6457F-CD58-4B5A-9D85-3C48EDF62848}" WorkUnitID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}"/>
+									</MusicStinger>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{00A7B1D2-BEAA-4ED0-8C98-4A6C3D988F81}" ShortID="829692918">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{10604AD8-ADA9-4197-875B-881D96FFD00F}" ShortID="11413852">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Characters" ID="{35743223-E393-4BAB-9327-DAF105E85EED}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<Folder Name="Stingers" ID="{253D2F0C-89B8-4ACB-A93F-97B732722B43}" ShortID="705332576">
+					<ChildrenList>
+						<MusicSegment Name="Stinger_CatMeow_68bpm_4-4_L1B_P0" ID="{BBDCDF5D-DA94-410E-A940-17247777E34B}" ShortID="274032229">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="68"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{06EFCC08-CDA5-47A6-9ED6-E05125810365}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Stinger_CatMeow_68bpm_4-4_L1B_P0" ID="{055697FD-F402-4755-87FA-68AB5024F479}" ShortID="975199821">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stinger_CatMeow_68bpm_4-4_L1B_P0" ID="{275932E1-5B21-42DD-BAC5-785B3407D9E6}">
+											<Language>SFX</Language>
+											<AudioFile>Stinger_CatMeow_68bpm_4-4_L1B_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="831017732"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{18C3F401-DED1-4246-B3ED-D13F38E69C28}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3A48065B-CC42-4E84-A69E-28682CB67B08}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Stinger_CatMeow_68bpm_4-4_L1B_P0" ID="{3ED9BD16-0BC5-468F-88CA-ADAD5F175310}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="882.354166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Stinger_CatMeow_68bpm_4-4_L1B_P0" ID="{275932E1-5B21-42DD-BAC5-785B3407D9E6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{96A36927-6063-479E-B05F-771089BCDC92}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{35755054-1ED4-4F68-91FA-E967F828673B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="882.352941176471"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Stinger_Chameleon_68bpm_L1B_P0" ID="{A4D6457F-CD58-4B5A-9D85-3C48EDF62848}" ShortID="902121022">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="68"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{06EFCC08-CDA5-47A6-9ED6-E05125810365}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Stinger_Chameleon_68bpm_L1B_P0" ID="{5DFC1B87-3910-4E68-A10C-0CA5101379D8}" ShortID="1021771588">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stinger_Chameleon_68bpm_L1B_P0" ID="{3C1BF9D0-3E41-4276-AD18-D9EB2B821A9E}">
+											<Language>SFX</Language>
+											<AudioFile>Stinger_Chameleon_68bpm_L1B_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="543499227"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0DB4144D-F6A0-42C3-B295-4DE3EB3B0878}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{8593FF08-F524-4905-90E0-1C6A31518E40}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Stinger_Chameleon_68bpm_L1B_P0" ID="{7556109A-832C-493D-9EFA-C0B5471B689F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="882.354166666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Stinger_Chameleon_68bpm_L1B_P0" ID="{3C1BF9D0-3E41-4276-AD18-D9EB2B821A9E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{3A9838CC-2E1B-4653-BFFF-D91F476A283A}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{9491739B-9050-4888-858E-5816F94C831C}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Stinger_DogBark_68bpm_L1B_P0" ID="{3B032CC4-AF87-4F46-936C-4D9EADF0DA0B}" ShortID="977966678">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="68"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{06EFCC08-CDA5-47A6-9ED6-E05125810365}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Stinger_DogBark_68bpm_L1B_P0" ID="{9FEC472A-051A-4B44-BB4E-B864E2DCA2AD}" ShortID="205696436">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stinger_DogBark_68bpm_L1B_P0" ID="{BB5DE1D7-4B16-4DE9-A2BA-82B906C3F8C6}">
+											<Language>SFX</Language>
+											<AudioFile>Stinger_DogBark_68bpm_L1B_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="862276616"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{95B42D3A-A44D-4B3B-A263-A414370AF236}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1DE46410-1CAE-46E4-A097-161CF2A5F4B2}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Stinger_DogBark_68bpm_L1B_P0" ID="{AF03F5CC-0CCD-4724-AE8D-F9B881CA96B9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="880.75"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Stinger_DogBark_68bpm_L1B_P0" ID="{BB5DE1D7-4B16-4DE9-A2BA-82B906C3F8C6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{E35A334B-94B3-4346-9CC0-68D9727DF8BE}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{CB10B05C-5273-43D5-B20C-BF3F63F0CC9B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

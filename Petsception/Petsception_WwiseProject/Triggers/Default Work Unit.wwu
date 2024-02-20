@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{637C59BA-ADB0-49E9-AB52-91C8D1FB6C92}" SchemaVersion="103">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{637C59BA-ADB0-49E9-AB52-91C8D1FB6C92}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="CatMeow" ID="{63B86CF9-FB0C-4D4C-90B7-5262CC73E28E}"/>
+				<Trigger Name="DogBark" ID="{B80679B6-7453-4005-A7B3-54BD3AFC2C2D}"/>
+				<Trigger Name="ChameleonSound" ID="{FB2FA110-F0D2-4DAE-8D87-26A53150A588}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

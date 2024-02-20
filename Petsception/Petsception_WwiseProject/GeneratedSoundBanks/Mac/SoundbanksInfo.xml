@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/P1/Game Jams/Petsception/Wwise/Petsception_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/P1/Game Jams/Petsception/Wwise/Petsception_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/P1/Game Jams/Petsception/Wwise/Petsception_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/P1/Game Jams/Petsception/Wwise/Petsception_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2737043799">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="4154448043" Language="SFX" Hash="3515237713">
+			<ObjectPath>\SoundBanks\Default Work Unit\Petsception</ObjectPath>
+			<ShortName>Petsception</ShortName>
+			<Path>Petsception.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3024246768" Name="CatSelected" ObjectPath="\Events\Default Work Unit\CatSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="983016379" Name="Cat" ObjectPath="\Switches\Default Work Unit\Characters\Cat"/>
+					</ActionSetSwitch>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2633149251" Name="CatMeow" ObjectPath="\Triggers\Default Work Unit\CatMeow"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="202981074" Name="ChameleonSelected" ObjectPath="\Events\Default Work Unit\ChameleonSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="398416717" Name="Chameleon" ObjectPath="\Switches\Default Work Unit\Characters\Chameleon"/>
+					</ActionSetSwitch>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1887853562" Name="ChameleonSound" ObjectPath="\Triggers\Default Work Unit\ChameleonSound"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="4114262194" Name="DogSelected" ObjectPath="\Events\Default Work Unit\DogSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="546651181" Name="Dog" ObjectPath="\Switches\Default Work Unit\Characters\Dog"/>
+					</ActionSetSwitch>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="4158688515" Name="DogBark" ObjectPath="\Triggers\Default Work Unit\DogBark"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2891037199" Name="PetMusicPlay" ObjectPath="\Events\Default Work Unit\PetMusicPlay" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="279185434" Language="SFX">
+							<ShortName>Characters\Music_Background_68bpm_4-4_L16M_P0.wav</ShortName>
+							<Path>SFX/Characters/Music_Background_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="316565971" Language="SFX">
+							<ShortName>Characters\Music_Dog_68bpm_4-4_L16M_P0.wav</ShortName>
+							<Path>SFX/Characters/Music_Dog_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="543499227" Language="SFX">
+							<ShortName>Stinger_Chameleon_68bpm_L1B_P0.wav</ShortName>
+							<Path>SFX/Stinger_Chameleon_68bpm_L1B_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="696646933" Language="SFX">
+							<ShortName>Characters\Music_Chameleon_68bpm_4-4_L16MP0.wav</ShortName>
+							<Path>SFX/Characters/Music_Chameleon_68bpm_4-4_L16MP0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="831017732" Language="SFX">
+							<ShortName>Stinger_CatMeow_68bpm_4-4_L1B_P0.wav</ShortName>
+							<Path>SFX/Stinger_CatMeow_68bpm_4-4_L1B_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="862276616" Language="SFX">
+							<ShortName>Stinger_DogBark_68bpm_L1B_P0.wav</ShortName>
+							<Path>SFX/Stinger_DogBark_68bpm_L1B_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="950107177" Language="SFX">
+							<ShortName>Characters\Music_Cat_68bpm_4-4_L16M_P0.wav</ShortName>
+							<Path>SFX/Characters/Music_Cat_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="398416717" Name="Chameleon" ObjectPath="\Switches\Default Work Unit\Characters\Chameleon" GUID="{6A1C60FE-A6BA-4615-A241-48E784777D13}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="546651181" Name="Dog" ObjectPath="\Switches\Default Work Unit\Characters\Dog" GUID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="983016379" Name="Cat" ObjectPath="\Switches\Default Work Unit\Characters\Cat" GUID="{710C8DAA-1F94-4340-BFFF-FE563208C55A}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1557941045" Name="Characters" ObjectPath="\Switches\Default Work Unit\Characters" GUID="{87CD6810-5F66-4243-9208-E5016BC259C2}">
+					<Switches>
+						<Switch Id="546651181" Name="Dog" ObjectPath="\Switches\Default Work Unit\Characters\Dog" GUID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}"/>
+						<Switch Id="983016379" Name="Cat" ObjectPath="\Switches\Default Work Unit\Characters\Cat" GUID="{710C8DAA-1F94-4340-BFFF-FE563208C55A}"/>
+						<Switch Id="398416717" Name="Chameleon" ObjectPath="\Switches\Default Work Unit\Characters\Chameleon" GUID="{6A1C60FE-A6BA-4615-A241-48E784777D13}"/>
+						<Switch Id="3650723969" Name="Background" ObjectPath="\Switches\Default Work Unit\Characters\Background" GUID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="1887853562" Name="ChameleonSound" ObjectPath="\Triggers\Default Work Unit\ChameleonSound"/>
+				<Trigger Id="2633149251" Name="CatMeow" ObjectPath="\Triggers\Default Work Unit\CatMeow"/>
+				<Trigger Id="4158688515" Name="DogBark" ObjectPath="\Triggers\Default Work Unit\DogBark"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
