@@ -24,6 +24,8 @@ public class Lever : MonoBehaviour
     public Light2D lightAffected;
 
     private float originalLightIntensity;
+
+    public GameEvent lightEvent;
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -39,6 +41,7 @@ public class Lever : MonoBehaviour
             flipped = true;
             sr.sprite = flippedSprite;
             lightAffected.intensity = 0f;
+            lightEvent.Raise(this, true);
             InvokeRepeating("checkForFlipBack", Time.deltaTime, Time.deltaTime);
         }
     }
@@ -67,6 +70,7 @@ public class Lever : MonoBehaviour
             timePassed = 0;
             sr.sprite = unflippedSprite;
             lightAffected.intensity = originalLightIntensity;
+            lightEvent.Raise(this, false);
             CancelInvoke();
             return;
         }
@@ -74,5 +78,10 @@ public class Lever : MonoBehaviour
         timePassed += Time.deltaTime;
 
 
+    }
+
+   public void eneteredLight(Component sender, object data)
+    {
+        lightEvent.Raise(this, flipped);
     }
 }
