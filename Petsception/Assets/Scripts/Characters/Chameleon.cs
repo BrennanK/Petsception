@@ -11,6 +11,19 @@ public class Chameleon : Pet
 
     [SerializeField]
     private LayerMask ground;
+
+    [SerializeField]
+    private Color camoColor;
+
+    private SpriteRenderer r;
+    private Color originalColor;
+
+    private bool isToggled;
+
+    public bool getToggled()
+    {
+        return isToggled;
+    }
     // Start is called before the first frame update
 
     public Animator getAnimator()
@@ -24,6 +37,9 @@ public class Chameleon : Pet
         rigidBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         box = GetComponent<BoxCollider2D>();
+
+        r = GetComponent<SpriteRenderer>();
+        originalColor = r.color;
     }
 
     // Update is called once per frame
@@ -59,6 +75,11 @@ public class Chameleon : Pet
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpHeight);
         }
+
+        if(Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            petAbility();
+        }
     }
 
     public override void setInControl(bool newValue)
@@ -68,6 +89,20 @@ public class Chameleon : Pet
 
     public override void petAbility()
     {
+        //RaycastHit2D hit = Physics2D.Raycast(this.transform.position, this.transform.up, 1.0f);
+
+        //Debug.Log("This is the point of contact: "+hit.point);
+
+        if(isToggled==true)
+        {
+            isToggled = false;
+            r.color = originalColor;
+        }
+        else
+        {
+            isToggled = true;
+            r.color = camoColor;
+        }
 
     }
 
