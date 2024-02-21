@@ -22,6 +22,10 @@ public class Chameleon : Pet
 
     private bool canActivate;
 
+    public GameEvent hide;
+
+    public GameEvent reveal;
+
     public void setCanActivate(bool newValue)
     {
         canActivate = newValue;
@@ -88,6 +92,10 @@ public class Chameleon : Pet
         }
     }
 
+    public bool getInControl()
+    {
+        return inControl;
+    }
     public override void setInControl(bool newValue)
     {
         inControl = newValue;
@@ -100,11 +108,20 @@ public class Chameleon : Pet
         {
             isToggled = false;
             r.color = originalColor;
+            if(gameObject.GetComponent<Climb>().getOnSurface())
+            {
+                reveal.Raise(this, 1);
+            }
         }
         else if(isToggled == false && canActivate == true)
         {
             isToggled = true;
             r.color = camoColor;
+            if(gameObject.GetComponent<Climb>().getOnSurface())
+            {
+                hide.Raise(this, 0);
+            }
+            
         }
 
     }

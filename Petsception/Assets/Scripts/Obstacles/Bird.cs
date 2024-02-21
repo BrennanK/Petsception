@@ -17,6 +17,7 @@ public class Bird : MonoBehaviour
     void Start()
     {
         sitPosition = this.gameObject.transform.position;
+        returnStartPosition = sitPosition;
         //StartCoroutine(goToTarget());
        // InvokeRepeating("callGoToTarget", Time.deltaTime, Time.deltaTime);
     }
@@ -33,7 +34,7 @@ public class Bird : MonoBehaviour
         if(timePassed<durationInSeconds)
         {
             float t = timePassed / durationInSeconds;
-            this.gameObject.transform.position = Vector3.Lerp(sitPosition, target.transform.position,t);
+            this.gameObject.transform.position = Vector3.Lerp(returnStartPosition, target.transform.position,t);
             timePassed += Time.deltaTime;
            // Debug.Log("We going");
             yield return null;
@@ -75,5 +76,22 @@ public class Bird : MonoBehaviour
             Debug.Log("We ended");
             yield return null;
         }
+    }
+
+    public void startFlight(Component sender, object data)
+    {
+        timePassed = 0;
+        CancelInvoke();
+        returnStartPosition= gameObject.transform.position;
+        InvokeRepeating("callGoToTarget", Time.deltaTime, Time.deltaTime);
+    }
+
+    public void endFlight(Component sender, object data)
+    {
+        timePassed = 0;
+        Debug.Log("We ended flight");
+        CancelInvoke();
+        returnStartPosition = gameObject.transform.position;
+        InvokeRepeating("callGoBack", Time.deltaTime, Time.deltaTime);
     }
 }
