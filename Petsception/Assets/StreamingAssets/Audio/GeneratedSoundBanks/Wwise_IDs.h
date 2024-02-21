@@ -19,6 +19,8 @@ namespace AK
         static const AkUniqueID CHAMELEONSELECTED = 202981074U;
         static const AkUniqueID DOGFOOTSTEPS = 2154718686U;
         static const AkUniqueID DOGSELECTED = 4114262194U;
+        static const AkUniqueID LEVERDOWN = 2225823019U;
+        static const AkUniqueID LEVERUP = 1662764780U;
         static const AkUniqueID PETMUSICPLAY = 2891037199U;
     } // namespace EVENTS
 
@@ -63,6 +65,11 @@ namespace AK
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB = 348963605U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

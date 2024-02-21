@@ -129,6 +129,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="LeverDown" ID="{F3820F65-7EAF-4434-BF2E-08269E5C8460}">
+					<ChildrenList>
+						<Action Name="" ID="{72D6194B-A347-46E4-A7AD-CD5308E268A6}" ShortID="586243650">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverDown" ID="{FA3211B8-B95A-425A-A8AD-AC87331D64B4}" WorkUnitID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LeverUp" ID="{C853A187-DC2E-4FA0-AB33-60BF1F3F1E86}">
+					<ChildrenList>
+						<Action Name="" ID="{DDF8C4A7-BE27-40E7-A491-9638B16C01CC}" ShortID="171279028">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverUp" ID="{2FAC6F2E-9ABD-4D61-A51A-A9B3D04B411D}" WorkUnitID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

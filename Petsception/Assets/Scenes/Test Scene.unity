@@ -12004,6 +12004,14 @@ MonoBehaviour:
   flippedSprite: {fileID: 21300000, guid: 9afc93abd645fff4287333a5f8882c7b, type: 3}
   lightAffected: {fileID: 547641575}
   lightEvent: {fileID: 11400000, guid: 65065322a368d4349ac2d430631fd024, type: 2}
+  LeverDown:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c131cf4f83fa64c67914a4d14f21c645, type: 2}
+  LeverUp:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ba3658ac5b14c414197fee7a39e6b1fe, type: 2}
 --- !u!114 &1551766955
 MonoBehaviour:
   m_ObjectHideFlags: 0
