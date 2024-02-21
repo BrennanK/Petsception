@@ -51,7 +51,7 @@ public class CharacterUI : MonoBehaviour
         {
             dogBorder.sprite = unselectedChar;
             catBorder.sprite = unselectedChar;
-            chameleonBorder.sprite = unselectedChar;
+            chameleonBorder.sprite = selectedChar;
             abilityText.text = "Camo";
         }
     }
