@@ -14489,6 +14489,10 @@ PrefabInstance:
       value: Dog
       objectReference: {fileID: 0}
     - target: {fileID: 2343930289001028266, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
+      propertyPath: scareTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2343930289001028266, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
       propertyPath: jumpHeight
       value: 5
       objectReference: {fileID: 0}
@@ -14496,6 +14500,10 @@ PrefabInstance:
       propertyPath: movementSpeed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2343930289001028266, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
+      propertyPath: barkScareEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 61b7f3b452670c847b63000c55e304a3, type: 2}
     - target: {fileID: 2343930289001028266, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
       propertyPath: signalDuration
       value: 0.5

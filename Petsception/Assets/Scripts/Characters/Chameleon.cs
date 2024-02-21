@@ -143,7 +143,7 @@ public class Chameleon : Pet
             r.color = originalColor;
             if(gameObject.GetComponent<Climb>().getOnSurface())
             {
-                reveal.Raise(this, 1);
+                reveal.Raise(this, true);
             }
         }
         else if(isToggled == false && canActivate == true)
@@ -152,7 +152,7 @@ public class Chameleon : Pet
             r.color = camoColor;
             if(gameObject.GetComponent<Climb>().getOnSurface())
             {
-                hide.Raise(this, 0);
+                hide.Raise(this, false);
             }
             
         }

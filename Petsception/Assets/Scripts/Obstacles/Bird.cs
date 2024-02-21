@@ -13,6 +13,8 @@ public class Bird : MonoBehaviour
     private float timePassed;
 
     [SerializeField] private float durationInSeconds;
+
+    private float delayForScare;
     // Start is called before the first frame update
     void Start()
     {
@@ -93,6 +95,13 @@ public class Bird : MonoBehaviour
         CancelInvoke();
         returnStartPosition = gameObject.transform.position;
         InvokeRepeating("callGoBack", Time.deltaTime, Time.deltaTime);
+        
+        if(data is float)
+        {
+            Debug.Log("We got scared");
+            delayForScare = (float)data;
+            StartCoroutine(delayComeback());
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -103,5 +112,17 @@ public class Bird : MonoBehaviour
         {
             target.gameObject.GetComponent<Chameleon>().setIsHit(true);
         }
+        if(collision.gameObject.GetComponent<Cat>())
+        {
+            delayForScare = 3.0f;
+            StartCoroutine(delayComeback());
+        }
+    }
+
+    IEnumerator delayComeback()
+    {
+        yield return new WaitForSeconds(delayForScare);
+        startFlight(this,true);
+
     }
 }

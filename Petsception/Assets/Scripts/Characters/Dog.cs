@@ -25,6 +25,12 @@ public class Dog : Pet
 
     [SerializeField]
     private GameObject barkSignal;
+
+    public GameEvent barkScareEvent;
+
+    [SerializeField]
+    private float scareTime;
+
     public float getCooldown()
     {
         return abilityCoolodwnTime;
@@ -71,6 +77,7 @@ public class Dog : Pet
     public override void petAbility()
     {
         Debug.Log("We barked");
+        barkScareEvent.Raise(this, scareTime);
         barkSignal.SetActive(true);
         InvokeRepeating("coolDown", Time.deltaTime, Time.deltaTime);
     }
