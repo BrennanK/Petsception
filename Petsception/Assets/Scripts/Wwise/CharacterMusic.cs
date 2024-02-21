@@ -21,11 +21,11 @@ public class CharacterMusic : MonoBehaviour
         {
             DogEvent.Post(gameObject);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             CatEvent.Post(gameObject);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             ChameleonEvent.Post(gameObject);
         }

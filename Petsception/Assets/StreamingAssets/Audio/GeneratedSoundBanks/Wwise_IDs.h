@@ -13,8 +13,11 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CATFOOTSTEPS = 2436923116U;
         static const AkUniqueID CATSELECTED = 3024246768U;
+        static const AkUniqueID CHAMELEONFOOTSTEPS = 2698295934U;
         static const AkUniqueID CHAMELEONSELECTED = 202981074U;
+        static const AkUniqueID DOGFOOTSTEPS = 2154718686U;
         static const AkUniqueID DOGSELECTED = 4114262194U;
         static const AkUniqueID PETMUSICPLAY = 2891037199U;
     } // namespace EVENTS

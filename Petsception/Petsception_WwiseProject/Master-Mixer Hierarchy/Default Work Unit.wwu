@@ -45,6 +45,17 @@
 						</Bus>
 						<Bus Name="SFX" ID="{06EFCC08-CDA5-47A6-9ED6-E05125810365}">
 							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{66EBD2E1-09B8-41C4-A18E-A8F36322470D}"/>
+									<DuckingParam>
+										<Volume>-3</Volume>
+										<FadeInTime>0.5</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
 					</ChildrenList>
 					<ObjectLists/>

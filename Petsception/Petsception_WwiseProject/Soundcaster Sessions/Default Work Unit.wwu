@@ -30,8 +30,20 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="ChameleonFootSteps" ID="{2DFB5CD5-1A27-4480-91ED-24EED55E224A}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="PetMusicPlay" ID="{1443ED91-0322-4B6D-A670-8399DB870E07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DogFootSteps" ID="{9CF862A9-1AC0-4024-BA7B-B679316F2307}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="CatFootSteps" ID="{E90007CF-C9C4-4426-9832-2737E00CA8EE}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -42,7 +54,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dog" ID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}"/>
+						<CurrentSwitchRef Name="Cat" ID="{710C8DAA-1F94-4340-BFFF-FE563208C55A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

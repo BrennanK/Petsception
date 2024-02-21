@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 7dd21af3d407ea488635f41819333a1f
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: 7dd21af3d407ea488635f41819333a1f
     GuidInternal: 
-    m_lastTime: -8584931426215526045
+    m_lastTime: -8584932044901222581
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 80f35687b51afe44a0b5859c63c503d9
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 80f35687b51afe44a0b5859c63c503d9
     GuidInternal: 
-    m_lastTime: -8584931426219226872
+    m_lastTime: -8584930552897387048
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,7 +53,7 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
     - name: Music
       guid: e1d2eb66b809c441a18ea8f36322470d
       id: 3991942870
@@ -70,7 +70,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 2
         guid: e1d2eb66b809c441a18ea8f36322470d
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Music
     - name: SFX
       guid: 08ccef06a5cda6479ed6e05125810365
       id: 393239870
@@ -87,9 +87,9 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 2
         guid: 08ccef06a5cda6479ed6e05125810365
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -97,10 +97,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 452a4a91c976a444abe43b1c474cebd8
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 452a4a91c976a444abe43b1c474cebd8
     GuidInternal: 
-    m_lastTime: -8584931426215536052
+    m_lastTime: -8584930552897289733
     List:
     - name: Petsception
       guid: 1ab22a96a0e9354f855fc46c3a32dd89
@@ -115,9 +115,9 @@ MonoBehaviour:
       - ElementName: Petsception
         ObjectType: 7
         guid: 1ab22a96a0e9354f855fc46c3a32dd89
-      Path: SoundBanks\Default Work Unit\Petsception
+      Path: SoundBanks/Default Work Unit/Petsception
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -125,11 +125,28 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: ad8fa1412690ef4abe2d31631ad2312b
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: ad8fa1412690ef4abe2d31631ad2312b
     GuidInternal: 
-    m_lastTime: -8584931426224272006
+    m_lastTime: -8584930552901498168
     List:
+    - name: CatFootSteps
+      guid: cf0700e9c4c9264498322737e00ca8ee
+      id: 2436923116
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: CatFootSteps
+        ObjectType: 3
+        guid: cf0700e9c4c9264498322737e00ca8ee
+      Path: Events/Default Work Unit/CatFootSteps
+      maxAttenuation: 0
+      maxDuration: 0.529732
+      minDuration: 0.471937
     - name: CatSelected
       guid: ed0b10030db4834a8f070d52cf1c35ee
       id: 3024246768
@@ -143,10 +160,27 @@ MonoBehaviour:
       - ElementName: CatSelected
         ObjectType: 3
         guid: ed0b10030db4834a8f070d52cf1c35ee
-      Path: Events\Default Work Unit\CatSelected
+      Path: Events/Default Work Unit/CatSelected
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: ChameleonFootSteps
+      guid: d55cfb2d271a804491ed24eed55e224a
+      id: 2698295934
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: ChameleonFootSteps
+        ObjectType: 3
+        guid: d55cfb2d271a804491ed24eed55e224a
+      Path: Events/Default Work Unit/ChameleonFootSteps
+      maxAttenuation: 0
+      maxDuration: 0.461158
+      minDuration: 0.145256
     - name: ChameleonSelected
       guid: 278e7479a4a63643af85ffecfe4ba07f
       id: 202981074
@@ -160,10 +194,27 @@ MonoBehaviour:
       - ElementName: ChameleonSelected
         ObjectType: 3
         guid: 278e7479a4a63643af85ffecfe4ba07f
-      Path: Events\Default Work Unit\ChameleonSelected
+      Path: Events/Default Work Unit/ChameleonSelected
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: DogFootSteps
+      guid: a962f89cc01a2440ba7bb679316f2307
+      id: 2154718686
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: DogFootSteps
+        ObjectType: 3
+        guid: a962f89cc01a2440ba7bb679316f2307
+      Path: Events/Default Work Unit/DogFootSteps
+      maxAttenuation: 0
+      maxDuration: 0.529732
+      minDuration: 0.471937
     - name: DogSelected
       guid: 3940477d90208146b39b61da0e51ca69
       id: 4114262194
@@ -177,7 +228,7 @@ MonoBehaviour:
       - ElementName: DogSelected
         ObjectType: 3
         guid: 3940477d90208146b39b61da0e51ca69
-      Path: Events\Default Work Unit\DogSelected
+      Path: Events/Default Work Unit/DogSelected
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -194,12 +245,12 @@ MonoBehaviour:
       - ElementName: PetMusicPlay
         ObjectType: 3
         guid: 91ed431422036d4ba6708399db870e07
-      Path: Events\Default Work Unit\PetMusicPlay
+      Path: Events/Default Work Unit/PetMusicPlay
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -207,10 +258,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 1d36b8083356f24b985e720b54a90b21
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: 1d36b8083356f24b985e720b54a90b21
     GuidInternal: 
-    m_lastTime: -8584931426224262002
+    m_lastTime: -8584931640854494780
     List:
     - name: Volume
       guid: f6f1a27ce5acc34aa19bc66cbf554de2
@@ -225,9 +276,9 @@ MonoBehaviour:
       - ElementName: Volume
         ObjectType: 13
         guid: f6f1a27ce5acc34aa19bc66cbf554de2
-      Path: Game Parameters\Default Work Unit\Volume
+      Path: Game Parameters/Default Work Unit/Volume
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -235,13 +286,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: a5b8e9d37af603449cd214a7d4f45f7e
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: a5b8e9d37af603449cd214a7d4f45f7e
     GuidInternal: 
-    m_lastTime: -8584931426215536052
+    m_lastTime: -8584932044901227614
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -249,10 +300,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 66dc2b7027a2aa42b34994b95c4cc1bb
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: 66dc2b7027a2aa42b34994b95c4cc1bb
     GuidInternal: 
-    m_lastTime: -8584931426215536052
+    m_lastTime: -8584932025036144639
     List:
     - name: Characters
       guid: 1068cd87665f43429208e5016bc259c2
@@ -267,7 +318,7 @@ MonoBehaviour:
       - ElementName: Characters
         ObjectType: 11
         guid: 1068cd87665f43429208e5016bc259c2
-      Path: Switches\Default Work Unit\Characters
+      Path: Switches/Default Work Unit/Characters
       values:
       - name: Background
         guid: fb60dc9cb01e81498733cd6f040fa1ea
@@ -337,7 +388,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -345,10 +396,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: ba597c63b0ade949ab5291c8d1fb6c92
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: ba597c63b0ade949ab5291c8d1fb6c92
     GuidInternal: 
-    m_lastTime: -8584931426215526045
+    m_lastTime: -8584932025035902183
     List:
     - name: CatMeow
       guid: f96cb8630cfb4c4d90b75262cc73e28e
@@ -363,7 +414,7 @@ MonoBehaviour:
       - ElementName: CatMeow
         ObjectType: 14
         guid: f96cb8630cfb4c4d90b75262cc73e28e
-      Path: Triggers\Default Work Unit\CatMeow
+      Path: Triggers/Default Work Unit/CatMeow
     - name: ChameleonSound
       guid: 10a12ffbd2f0ae4d8d8726a53150a588
       id: 1887853562
@@ -377,7 +428,7 @@ MonoBehaviour:
       - ElementName: ChameleonSound
         ObjectType: 14
         guid: 10a12ffbd2f0ae4d8d8726a53150a588
-      Path: Triggers\Default Work Unit\ChameleonSound
+      Path: Triggers/Default Work Unit/ChameleonSound
     - name: DogBark
       guid: b67906b853740540a7b354bd3afc2c2d
       id: 4158688515
@@ -391,9 +442,9 @@ MonoBehaviour:
       - ElementName: DogBark
         ObjectType: 14
         guid: b67906b853740540a7b354bd3afc2c2d
-      Path: Triggers\Default Work Unit\DogBark
+      Path: Triggers/Default Work Unit/DogBark
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
