@@ -17,6 +17,15 @@ public class Climb : MonoBehaviour
 
     public GameEvent climbEvent;
 
+    public GameEvent exitPoleArea;
+
+    private bool onSurface;
+
+    public bool getOnSurface()
+    {
+        return onSurface;
+    }
+
     public bool getIsClimbable()
     {
         return isClimbable;
@@ -38,7 +47,7 @@ public class Climb : MonoBehaviour
     {
         verticalDirection = Input.GetAxisRaw("Vertical");
 
-        if(isClimbable && Mathf.Abs(verticalDirection) > 0f)
+        if(isClimbable && Mathf.Abs(verticalDirection) > 0f && gameObject.GetComponent<Chameleon>().getInControl())
         {
             isClimbing= true;
         }
@@ -64,6 +73,7 @@ public class Climb : MonoBehaviour
         if(collision.CompareTag("Climbable"))
         {
             isClimbable = true;
+            onSurface = true;
             climbEvent.Raise(this, gameObject.GetComponent<Chameleon>());
             //setClimbRotation();
             //this.gameObject.GetComponent<Chameleon>().getAnimator().SetBool("startClimb", true);
@@ -75,9 +85,11 @@ public class Climb : MonoBehaviour
         if (collision.CompareTag("Climbable"))
         {
             isClimbable = false;
+            onSurface = false;
             isClimbing = false;
             //this.gameObject.GetComponent<Chameleon>().getAnimator().SetBool("startClimb", false);
             resetRotation();
+            exitPoleArea.Raise(this, 1);
             gameObject.GetComponent<Chameleon>().toggleCamoAbility(this, true);
         }
     }

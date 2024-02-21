@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Dog : Pet
 {
     private Rigidbody2D rigidBody;
@@ -19,6 +19,17 @@ public class Dog : Pet
     private float timePassed;
 
     private bool onCooldown;
+
+    [SerializeField]
+    private float signalDuration;
+
+    [SerializeField]
+    private GameObject barkSignal;
+
+    public GameEvent barkScareEvent;
+
+    [SerializeField]
+    private float scareTime;
 
     public float getCooldown()
     {
@@ -66,12 +77,18 @@ public class Dog : Pet
     public override void petAbility()
     {
         Debug.Log("We barked");
+        barkScareEvent.Raise(this, scareTime);
+        barkSignal.SetActive(true);
         InvokeRepeating("coolDown", Time.deltaTime, Time.deltaTime);
     }
 
     private void coolDown()
     {
         timePassed += Time.deltaTime;
+        if(timePassed>signalDuration)
+        {
+            barkSignal.SetActive(false);
+        }
         if (timePassed > abilityCoolodwnTime)
         {
             onCooldown = false;

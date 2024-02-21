@@ -22,6 +22,24 @@ public class Chameleon : Pet
 
     private bool canActivate;
 
+    public GameEvent hide;
+
+    public GameEvent reveal;
+
+    private bool isHit;
+
+    private float dirX;
+
+    private float timePassed;
+
+    [SerializeField]
+    private float knockBackForce;
+
+    public void setIsHit(bool newValue)
+    {
+        isHit = newValue;
+    }
+
     public void setCanActivate(bool newValue)
     {
         canActivate = newValue;
@@ -56,8 +74,27 @@ public class Chameleon : Pet
             return;
         }
 
-        float dirX = Input.GetAxisRaw("Horizontal");
-        rigidBody.velocity = new Vector2(dirX * movementSpeed, rigidBody.velocity.y);
+        if(!isHit)
+        {
+            dirX = Input.GetAxisRaw("Horizontal");
+            rigidBody.velocity = new Vector2(dirX * movementSpeed, rigidBody.velocity.y);
+        }
+        else
+        {
+            timePassed += Time.deltaTime;
+            if(knockBackForce+timePassed>0)
+            {
+                rigidBody.velocity = new Vector2(0, rigidBody.velocity.y);
+                isHit = false;
+                timePassed = 0;
+            }
+            else
+            {
+                rigidBody.velocity = new Vector2(knockBackForce + timePassed, rigidBody.velocity.y);
+            }
+            
+        }
+        
 
         if(dirX>0f)
         {
@@ -88,6 +125,10 @@ public class Chameleon : Pet
         }
     }
 
+    public bool getInControl()
+    {
+        return inControl;
+    }
     public override void setInControl(bool newValue)
     {
         inControl = newValue;
@@ -100,11 +141,20 @@ public class Chameleon : Pet
         {
             isToggled = false;
             r.color = originalColor;
+            if(gameObject.GetComponent<Climb>().getOnSurface())
+            {
+                reveal.Raise(this, true);
+            }
         }
         else if(isToggled == false && canActivate == true)
         {
             isToggled = true;
             r.color = camoColor;
+            if(gameObject.GetComponent<Climb>().getOnSurface())
+            {
+                hide.Raise(this, false);
+            }
+            
         }
 
     }
