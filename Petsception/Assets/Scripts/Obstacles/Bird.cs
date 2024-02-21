@@ -94,4 +94,14 @@ public class Bird : MonoBehaviour
         returnStartPosition = gameObject.transform.position;
         InvokeRepeating("callGoBack", Time.deltaTime, Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("We should trigger");
+        Debug.Log(collision.gameObject.name);
+        if(collision.gameObject==target)
+        {
+            target.gameObject.GetComponent<Chameleon>().setIsHit(true);
+        }
+    }
 }
