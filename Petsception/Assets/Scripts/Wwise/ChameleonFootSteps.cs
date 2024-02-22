@@ -5,8 +5,18 @@ using UnityEngine;
 public class ChameleonFootSteps : MonoBehaviour
 {
     public AK.Wwise.Event ChameleonFootStepSounds;
+
+    public float ChameleonYPosition;
+
+    private void Update()
+    {
+        ChameleonYPosition = gameObject.transform.position.y;
+    }
     public void ChameleonStepSoundPlay()
     {
-        ChameleonFootStepSounds.Post(gameObject);
+        if (ChameleonYPosition < -3.616)
+        {
+            ChameleonFootStepSounds.Post(gameObject);
+        }
     }
 }

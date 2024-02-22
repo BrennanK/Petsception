@@ -151,6 +151,53 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="DogJump" ID="{0C99187A-1B9C-467A-B339-14DBFEC3CE28}">
+					<ChildrenList>
+						<Action Name="" ID="{D75C9630-E603-44CA-8E77-A2E2A2EA6E4A}" ShortID="244599123">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DogJump" ID="{66A35D0A-D67A-43CE-9973-79A0EF8C35D8}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CatJump" ID="{B7771A20-A694-4061-AAC1-8D731F7D9EEB}">
+					<ChildrenList>
+						<Action Name="" ID="{D8F3B6B5-5C63-482E-8474-E5D060DF9A1B}" ShortID="326499751">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CatJump" ID="{3E57F961-5E72-4DB8-A666-6533141479FF}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ChameleonJump" ID="{2AAEF8FC-D18F-448C-B051-68D563A30342}">
+					<ChildrenList>
+						<Action Name="" ID="{9D8A3F1B-6DBA-4DD7-82AE-1434EFC97185}" ShortID="946642192">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChameleonJump" ID="{995100B4-BFA2-42D9-AFB1-F54E03059A22}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BackgroundMusic" ID="{40B0D4C3-E887-4127-A8E1-3BB6CF786710}">
+					<ChildrenList>
+						<Action Name="" ID="{3EC7ED35-4149-40A5-B347-0D447A1D608F}" ShortID="303120836">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Background" ID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}" WorkUnitID="{702BDC66-A227-42AA-B349-94B95C4CC1BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

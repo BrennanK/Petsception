@@ -44,6 +44,28 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="SFX" ID="{06EFCC08-CDA5-47A6-9ED6-E05125810365}">
+							<ChildrenList>
+								<Bus Name="PetJumpSounds" ID="{8D7CC4C5-54E3-47CA-804A-9A48290DA613}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="FootStepSounds" ID="{83DEA465-FE95-4FA3-9351-8227C230618F}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
 							<ObjectLists/>
 							<DuckingList>
 								<DuckItem>
@@ -51,7 +73,7 @@
 									<DuckingParam>
 										<Volume>-3</Volume>
 										<FadeInTime>0.5</FadeInTime>
-										<FadeOutTime>0.5</FadeOutTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
 									</DuckingParam>
 								</DuckItem>

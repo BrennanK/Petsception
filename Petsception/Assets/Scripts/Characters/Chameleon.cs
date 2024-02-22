@@ -35,6 +35,8 @@ public class Chameleon : Pet
     [SerializeField]
     private float knockBackForce;
 
+    public AK.Wwise.Event ChameleonJump;
+
     public void setIsHit(bool newValue)
     {
         isHit = newValue;
@@ -117,6 +119,7 @@ public class Chameleon : Pet
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpHeight);
+            ChameleonJump.Post(gameObject);
         }
 
         if(Input.GetKeyDown(KeyCode.Mouse0))

@@ -13,6 +13,7 @@ public class Cat : Pet
     private Animator anim;
     private float dirX;
 
+    public AK.Wwise.Event CatJump;
   
    
     // Start is called before the first frame update
@@ -39,6 +40,7 @@ public class Cat : Pet
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpHeight);
+            CatJump.Post(gameObject);
         }
 
 

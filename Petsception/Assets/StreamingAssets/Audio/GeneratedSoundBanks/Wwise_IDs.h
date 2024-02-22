@@ -13,11 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BACKGROUNDMUSIC = 626769978U;
         static const AkUniqueID CATFOOTSTEPS = 2436923116U;
+        static const AkUniqueID CATJUMP = 244401571U;
         static const AkUniqueID CATSELECTED = 3024246768U;
         static const AkUniqueID CHAMELEONFOOTSTEPS = 2698295934U;
+        static const AkUniqueID CHAMELEONJUMP = 148164753U;
         static const AkUniqueID CHAMELEONSELECTED = 202981074U;
         static const AkUniqueID DOGFOOTSTEPS = 2154718686U;
+        static const AkUniqueID DOGJUMP = 1879996273U;
         static const AkUniqueID DOGSELECTED = 4114262194U;
         static const AkUniqueID LEVERDOWN = 2225823019U;
         static const AkUniqueID LEVERUP = 1662764780U;
@@ -61,8 +65,10 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID FOOTSTEPSOUNDS = 1446621239U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID PETJUMPSOUNDS = 3138133244U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
 

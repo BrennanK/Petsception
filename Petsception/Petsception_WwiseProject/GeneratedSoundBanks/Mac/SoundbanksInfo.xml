@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2358827172">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2822004226">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -22,11 +22,16 @@
 				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154448043" Language="SFX" Hash="1878407244">
+		<SoundBank Id="4154448043" Language="SFX" Hash="980086091">
 			<ObjectPath>\SoundBanks\Default Work Unit\Petsception</ObjectPath>
 			<ShortName>Petsception</ShortName>
 			<Path>Petsception.bnk</Path>
 			<IncludedEvents>
+				<Event Id="626769978" Name="BackgroundMusic" ObjectPath="\Events\Default Work Unit\BackgroundMusic" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="3650723969" Name="Background" ObjectPath="\Switches\Default Work Unit\Characters\Background"/>
+					</ActionSetSwitch>
+				</Event>
 				<Event Id="2436923116" Name="CatFootSteps" ObjectPath="\Events\Default Work Unit\CatFootSteps" DurationType="OneShot" DurationMin="0.471937" DurationMax="0.529732">
 					<IncludedMemoryFiles>
 						<File Id="133879243" Language="SFX">
@@ -48,6 +53,14 @@
 						<File Id="776314052" Language="SFX">
 							<ShortName>CatFootStep02.wav</ShortName>
 							<Path>SFX/CatFootStep02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="244401571" Name="CatJump" ObjectPath="\Events\Default Work Unit\CatJump" DurationType="OneShot" DurationMin="1.323854" DurationMax="1.323854">
+					<IncludedMemoryFiles>
+						<File Id="680362066" Language="SFX">
+							<ShortName>CatJump.wav</ShortName>
+							<Path>SFX/CatJump_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -83,6 +96,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="148164753" Name="ChameleonJump" ObjectPath="\Events\Default Work Unit\ChameleonJump" DurationType="OneShot" DurationMin="1.381979" DurationMax="1.381979">
+					<IncludedMemoryFiles>
+						<File Id="915545166" Language="SFX">
+							<ShortName>ChameleonJump.wav</ShortName>
+							<Path>SFX/ChameleonJump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="202981074" Name="ChameleonSelected" ObjectPath="\Events\Default Work Unit\ChameleonSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="398416717" Name="Chameleon" ObjectPath="\Switches\Default Work Unit\Characters\Chameleon"/>
@@ -112,6 +133,14 @@
 						<File Id="727743629" Language="SFX">
 							<ShortName>DogFootStep03.wav</ShortName>
 							<Path>SFX/DogFootStep03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1879996273" Name="DogJump" ObjectPath="\Events\Default Work Unit\DogJump" DurationType="OneShot" DurationMin="2.023708" DurationMax="2.023708">
+					<IncludedMemoryFiles>
+						<File Id="789056" Language="SFX">
+							<ShortName>DogJump.wav</ShortName>
+							<Path>SFX/DogJump_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -195,6 +224,9 @@
 						<Switch Id="398416717" Name="Chameleon" ObjectPath="\Switches\Default Work Unit\Characters\Chameleon" GUID="{6A1C60FE-A6BA-4615-A241-48E784777D13}"/>
 						<Switch Id="3650723969" Name="Background" ObjectPath="\Switches\Default Work Unit\Characters\Background" GUID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}"/>
 					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3650723969" Name="Background" ObjectPath="\Switches\Default Work Unit\Characters\Background" GUID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}">
+					<Switches/>
 				</SwitchGroup>
 			</SwitchGroups>
 			<Triggers>
