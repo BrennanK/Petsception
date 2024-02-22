@@ -1,29 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/P1/Game Jams/Petsception/Wwise/Petsception_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/P1/Game Jams/Petsception/Wwise/Petsception_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/P1/Game Jams/Petsception/Wwise/Petsception_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Petsception/Petsception/Petsception_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Petsception/Petsception/Petsception_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Petsception/Petsception/Petsception_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/P1/Game Jams/Petsception/Wwise/Petsception_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Petsception/Petsception/Petsception_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1526263681">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2677638118">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154448043" Language="SFX" Hash="3515237713">
+		<SoundBank Id="4154448043" Language="SFX" Hash="1878407244">
 			<ObjectPath>\SoundBanks\Default Work Unit\Petsception</ObjectPath>
 			<ShortName>Petsception</ShortName>
 			<Path>Petsception.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2436923116" Name="CatFootSteps" ObjectPath="\Events\Default Work Unit\CatFootSteps" DurationType="OneShot" DurationMin="0.471937" DurationMax="0.529732">
+					<IncludedMemoryFiles>
+						<File Id="133879243" Language="SFX">
+							<ShortName>CatFootStep01.wav</ShortName>
+							<Path>SFX/CatFootStep01_10C4C929.wem</Path>
+						</File>
+						<File Id="289579438" Language="SFX">
+							<ShortName>CatFootStep04.wav</ShortName>
+							<Path>SFX/CatFootStep04_10C4C929.wem</Path>
+						</File>
+						<File Id="483778339" Language="SFX">
+							<ShortName>CatFootStep05.wav</ShortName>
+							<Path>SFX/CatFootStep05_10C4C929.wem</Path>
+						</File>
+						<File Id="607878142" Language="SFX">
+							<ShortName>CatFootStep03.wav</ShortName>
+							<Path>SFX/CatFootStep03_10C4C929.wem</Path>
+						</File>
+						<File Id="776314052" Language="SFX">
+							<ShortName>CatFootStep02.wav</ShortName>
+							<Path>SFX/CatFootStep02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3024246768" Name="CatSelected" ObjectPath="\Events\Default Work Unit\CatSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="983016379" Name="Cat" ObjectPath="\Switches\Default Work Unit\Characters\Cat"/>
@@ -31,6 +58,30 @@
 					<ActionTrigger>
 						<ActionTriggerEntry Id="2633149251" Name="CatMeow" ObjectPath="\Triggers\Default Work Unit\CatMeow"/>
 					</ActionTrigger>
+				</Event>
+				<Event Id="2698295934" Name="ChameleonFootSteps" ObjectPath="\Events\Default Work Unit\ChameleonFootSteps" DurationType="OneShot" DurationMin="0.145256" DurationMax="0.461158">
+					<IncludedMemoryFiles>
+						<File Id="133879243" Language="SFX">
+							<ShortName>CatFootStep01.wav</ShortName>
+							<Path>SFX/CatFootStep01_10C4C929.wem</Path>
+						</File>
+						<File Id="289579438" Language="SFX">
+							<ShortName>CatFootStep04.wav</ShortName>
+							<Path>SFX/CatFootStep04_10C4C929.wem</Path>
+						</File>
+						<File Id="483778339" Language="SFX">
+							<ShortName>CatFootStep05.wav</ShortName>
+							<Path>SFX/CatFootStep05_10C4C929.wem</Path>
+						</File>
+						<File Id="607878142" Language="SFX">
+							<ShortName>CatFootStep03.wav</ShortName>
+							<Path>SFX/CatFootStep03_10C4C929.wem</Path>
+						</File>
+						<File Id="776314052" Language="SFX">
+							<ShortName>CatFootStep02.wav</ShortName>
+							<Path>SFX/CatFootStep02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="202981074" Name="ChameleonSelected" ObjectPath="\Events\Default Work Unit\ChameleonSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetSwitch>
@@ -40,6 +91,30 @@
 						<ActionTriggerEntry Id="1887853562" Name="ChameleonSound" ObjectPath="\Triggers\Default Work Unit\ChameleonSound"/>
 					</ActionTrigger>
 				</Event>
+				<Event Id="2154718686" Name="DogFootSteps" ObjectPath="\Events\Default Work Unit\DogFootSteps" DurationType="OneShot" DurationMin="0.471937" DurationMax="0.529732">
+					<IncludedMemoryFiles>
+						<File Id="176938474" Language="SFX">
+							<ShortName>DogFootStep01.wav</ShortName>
+							<Path>SFX/DogFootStep01_10C4C929.wem</Path>
+						</File>
+						<File Id="207709237" Language="SFX">
+							<ShortName>DogFootStep05.wav</ShortName>
+							<Path>SFX/DogFootStep05_10C4C929.wem</Path>
+						</File>
+						<File Id="237305732" Language="SFX">
+							<ShortName>DogFootStep02.wav</ShortName>
+							<Path>SFX/DogFootStep02_10C4C929.wem</Path>
+						</File>
+						<File Id="258539454" Language="SFX">
+							<ShortName>DogFootStep04.wav</ShortName>
+							<Path>SFX/DogFootStep04_10C4C929.wem</Path>
+						</File>
+						<File Id="727743629" Language="SFX">
+							<ShortName>DogFootStep03.wav</ShortName>
+							<Path>SFX/DogFootStep03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4114262194" Name="DogSelected" ObjectPath="\Events\Default Work Unit\DogSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="546651181" Name="Dog" ObjectPath="\Switches\Default Work Unit\Characters\Dog"/>
@@ -47,6 +122,28 @@
 					<ActionTrigger>
 						<ActionTriggerEntry Id="4158688515" Name="DogBark" ObjectPath="\Triggers\Default Work Unit\DogBark"/>
 					</ActionTrigger>
+				</Event>
+				<Event Id="2225823019" Name="LeverDown" ObjectPath="\Events\Default Work Unit\LeverDown" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<IncludedMemoryFiles>
+						<File Id="334876925" Language="SFX">
+							<ShortName>LeverDown.wav</ShortName>
+							<Path>SFX/LeverDown_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1662764780" Name="LeverUp" ObjectPath="\Events\Default Work Unit\LeverUp" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<IncludedMemoryFiles>
+						<File Id="300375389" Language="SFX">
+							<ShortName>LeverUp.wav</ShortName>
+							<Path>SFX/LeverUp_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2891037199" Name="PetMusicPlay" ObjectPath="\Events\Default Work Unit\PetMusicPlay" DurationType="Infinite">
 					<IncludedMemoryFiles>

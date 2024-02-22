@@ -7,9 +7,13 @@
 					<ChildrenList>
 						<Action Name="" ID="{C44FEBA8-4398-4391-9586-EF00EF3C56AA}" ShortID="432395969">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PetMusic" ID="{874B65B0-1DEF-4815-A7C7-1472A3A2DDE3}" WorkUnitID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{574C90A5-C0AB-4005-92C3-CE0D962217F2}" ShortID="1049241972">
 							<ReferenceList>
@@ -87,6 +91,61 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ChameleonSound" ID="{FB2FA110-F0D2-4DAE-8D87-26A53150A588}" WorkUnitID="{637C59BA-ADB0-49E9-AB52-91C8D1FB6C92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DogFootSteps" ID="{9CF862A9-1AC0-4024-BA7B-B679316F2307}">
+					<ChildrenList>
+						<Action Name="" ID="{2AF5D413-08AC-480B-9F66-AECB33B8F327}" ShortID="647963793">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DogFootSteps" ID="{7A304BE1-4C2F-43A2-AB6F-68F3C37AE477}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CatFootSteps" ID="{E90007CF-C9C4-4426-9832-2737E00CA8EE}">
+					<ChildrenList>
+						<Action Name="" ID="{9B86208E-CB43-4878-8191-A1FAA0FE4DF1}" ShortID="923095018">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CatFootSteps" ID="{22C80048-F8DC-4328-801E-C29978D36EC9}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ChameleonFootSteps" ID="{2DFB5CD5-1A27-4480-91ED-24EED55E224A}">
+					<ChildrenList>
+						<Action Name="" ID="{C580D0DD-BDE7-464E-BF53-CD67BB463A53}" ShortID="131588569">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChameleonFootSteps" ID="{F35C3A35-83BD-4372-90E1-C6521F2E1B35}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LeverDown" ID="{F3820F65-7EAF-4434-BF2E-08269E5C8460}">
+					<ChildrenList>
+						<Action Name="" ID="{72D6194B-A347-46E4-A7AD-CD5308E268A6}" ShortID="586243650">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverDown" ID="{FA3211B8-B95A-425A-A8AD-AC87331D64B4}" WorkUnitID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LeverUp" ID="{C853A187-DC2E-4FA0-AB33-60BF1F3F1E86}">
+					<ChildrenList>
+						<Action Name="" ID="{DDF8C4A7-BE27-40E7-A491-9638B16C01CC}" ShortID="171279028">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverUp" ID="{2FAC6F2E-9ABD-4D61-A51A-A9B3D04B411D}" WorkUnitID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -26,6 +26,10 @@ public class Lever : MonoBehaviour
     private float originalLightIntensity;
 
     public GameEvent lightEvent;
+
+    public AK.Wwise.Event LeverDown;
+
+    public AK.Wwise.Event LeverUp;
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -42,6 +46,7 @@ public class Lever : MonoBehaviour
             sr.sprite = flippedSprite;
             lightAffected.intensity = 0f;
             lightEvent.Raise(this, true);
+            LeverDown.Post(gameObject);
             InvokeRepeating("checkForFlipBack", Time.deltaTime, Time.deltaTime);
         }
     }
@@ -72,6 +77,7 @@ public class Lever : MonoBehaviour
             lightAffected.intensity = originalLightIntensity;
             lightEvent.Raise(this, false);
             CancelInvoke();
+            LeverUp.Post(gameObject);
             return;
         }
 

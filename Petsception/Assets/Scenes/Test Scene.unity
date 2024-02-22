@@ -4594,12 +4594,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2343930289001028266, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
   m_PrefabInstance: {fileID: 2343930288981792568}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2062383152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95171ff6d08106248b9ee56e6d8c0907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &58684221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8102601523842019152, guid: 3f45ba29e6da44445a44bc63e5c9b419, type: 3}
+  m_PrefabInstance: {fileID: 8102601524090880858}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &128401663
 GameObject:
   m_ObjectHideFlags: 0
@@ -4720,12 +4725,28 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8102601523842019153, guid: 3f45ba29e6da44445a44bc63e5c9b419, type: 3}
   m_PrefabInstance: {fileID: 8102601524090880858}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 58684221}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5186a97261def8f4bb39c3d76c6f22cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &249408529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58684221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eeb0ea9173ec41efa6e4d369288f8a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CatFootStepSounds:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 28f0437ea44d44f278a590b3dc126b68, type: 2}
 --- !u!1 &315910459
 GameObject:
   m_ObjectHideFlags: 0
@@ -11983,6 +12004,14 @@ MonoBehaviour:
   flippedSprite: {fileID: 21300000, guid: 9afc93abd645fff4287333a5f8882c7b, type: 3}
   lightAffected: {fileID: 547641575}
   lightEvent: {fileID: 11400000, guid: 65065322a368d4349ac2d430631fd024, type: 2}
+  LeverDown:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c131cf4f83fa64c67914a4d14f21c645, type: 2}
+  LeverUp:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ba3658ac5b14c414197fee7a39e6b1fe, type: 2}
 --- !u!114 &1551766955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12459,6 +12488,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1753379290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753379276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ad593c9a70534061a9b98aa9d15ab47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChameleonFootStepSounds:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7101ea0aaba304048af2946b8199764e, type: 2}
 --- !u!1 &1850417552
 GameObject:
   m_ObjectHideFlags: 0
@@ -14355,6 +14400,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929421666}
   m_CullTransparentMesh: 1
+--- !u!1 &2062383152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2343930289001028265, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
+  m_PrefabInstance: {fileID: 2343930288981792568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2062383158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062383152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b86cafb7461248768e99b1c76b728b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DogFootStepSounds:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b073535866d3a47ba94b95fe1695fa43, type: 2}
 --- !u!1001 &991612639711667563
 PrefabInstance:
   m_ObjectHideFlags: 0
