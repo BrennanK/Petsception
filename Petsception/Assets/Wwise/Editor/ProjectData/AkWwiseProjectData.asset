@@ -38,8 +38,28 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 80f35687b51afe44a0b5859c63c503d9
     GuidInternal: 
-    m_lastTime: -8584930481830303608
+    m_lastTime: -8584929776114976377
     List:
+    - name: FootStepSounds
+      guid: 65a4de8395fea34f93518227c230618f
+      id: 1446621239
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80f35687b51afe44a0b5859c63c503d9
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 08ccef06a5cda6479ed6e05125810365
+      - ElementName: FootStepSounds
+        ObjectType: 2
+        guid: 65a4de8395fea34f93518227c230618f
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/FootStepSounds
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -71,6 +91,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: e1d2eb66b809c441a18ea8f36322470d
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Music
+    - name: PetJumpSounds
+      guid: c5c47c8de354ca47804a9a48290da613
+      id: 3138133244
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80f35687b51afe44a0b5859c63c503d9
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 08ccef06a5cda6479ed6e05125810365
+      - ElementName: PetJumpSounds
+        ObjectType: 2
+        guid: c5c47c8de354ca47804a9a48290da613
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/PetJumpSounds
     - name: Reverb
       guid: 28cfacb4021f814394cec40618b62500
       id: 348963605
@@ -117,7 +157,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 452a4a91c976a444abe43b1c474cebd8
     GuidInternal: 
-    m_lastTime: -8584930481829966908
+    m_lastTime: -8584929786372651979
     List:
     - name: Petsception
       guid: 1ab22a96a0e9354f855fc46c3a32dd89
@@ -145,8 +185,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: ad8fa1412690ef4abe2d31631ad2312b
     GuidInternal: 
-    m_lastTime: -8584930481830146682
+    m_lastTime: -8584929786372790682
     List:
+    - name: BackgroundMusic
+      guid: c3d4b04087e82741a8e13bb6cf786710
+      id: 626769978
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: BackgroundMusic
+        ObjectType: 3
+        guid: c3d4b04087e82741a8e13bb6cf786710
+      Path: Events/Default Work Unit/BackgroundMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: CatFootSteps
       guid: cf0700e9c4c9264498322737e00ca8ee
       id: 2436923116
@@ -164,6 +221,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.529732
       minDuration: 0.471937
+    - name: CatJump
+      guid: 201a77b794a66140aac18d731f7d9eeb
+      id: 244401571
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: CatJump
+        ObjectType: 3
+        guid: 201a77b794a66140aac18d731f7d9eeb
+      Path: Events/Default Work Unit/CatJump
+      maxAttenuation: 0
+      maxDuration: 1.323854
+      minDuration: 1.323854
     - name: CatSelected
       guid: ed0b10030db4834a8f070d52cf1c35ee
       id: 3024246768
@@ -198,6 +272,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.461158
       minDuration: 0.145256
+    - name: ChameleonJump
+      guid: fcf8ae2a8fd18c44b05168d563a30342
+      id: 148164753
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: ChameleonJump
+        ObjectType: 3
+        guid: fcf8ae2a8fd18c44b05168d563a30342
+      Path: Events/Default Work Unit/ChameleonJump
+      maxAttenuation: 0
+      maxDuration: 1.381979
+      minDuration: 1.381979
     - name: ChameleonSelected
       guid: 278e7479a4a63643af85ffecfe4ba07f
       id: 202981074
@@ -232,6 +323,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.529732
       minDuration: 0.471937
+    - name: DogJump
+      guid: 7a18990c9c1b7a46b33914dbfec3ce28
+      id: 1879996273
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: DogJump
+        ObjectType: 3
+        guid: 7a18990c9c1b7a46b33914dbfec3ce28
+      Path: Events/Default Work Unit/DogJump
+      maxAttenuation: 0
+      maxDuration: 2.023708
+      minDuration: 2.023708
     - name: DogSelected
       guid: 3940477d90208146b39b61da0e51ca69
       id: 4114262194

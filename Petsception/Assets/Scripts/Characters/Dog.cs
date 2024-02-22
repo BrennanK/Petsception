@@ -31,6 +31,8 @@ public class Dog : Pet
     [SerializeField]
     private float scareTime;
 
+    public AK.Wwise.Event DogJump;
+
     public float getCooldown()
     {
         return abilityCoolodwnTime;
@@ -62,6 +64,7 @@ public class Dog : Pet
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x,jumpHeight);
+            DogJump.Post(gameObject);
         }
 
 

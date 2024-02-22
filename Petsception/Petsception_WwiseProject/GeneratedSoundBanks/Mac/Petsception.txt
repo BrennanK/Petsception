@@ -1,6 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	148164753	ChameleonJump			\Default Work Unit\ChameleonJump	
 	202981074	ChameleonSelected			\Default Work Unit\ChameleonSelected	
+	244401571	CatJump			\Default Work Unit\CatJump	
+	626769978	BackgroundMusic			\Default Work Unit\BackgroundMusic	
 	1662764780	LeverUp			\Default Work Unit\LeverUp	
+	1879996273	DogJump			\Default Work Unit\DogJump	
 	2154718686	DogFootSteps			\Default Work Unit\DogFootSteps	
 	2225823019	LeverDown			\Default Work Unit\LeverDown	
 	2436923116	CatFootSteps			\Default Work Unit\CatFootSteps	
@@ -15,23 +19,26 @@ Trigger	ID	Name			Wwise Object Path	Notes
 	4158688515	DogBark			\Default Work Unit\DogBark	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	133879243	CatFootStep01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\CatFootSteps\CatFootStep01		96064
-	176938474	DogFootStep01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\DogFootSteps\DogFootStep01		96064
-	207709237	DogFootStep05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\DogFootSteps\DogFootStep05		96064
-	237305732	DogFootStep02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\DogFootSteps\DogFootStep02		96064
-	258539454	DogFootStep04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\DogFootSteps\DogFootStep04		96064
+	789056	DogJump	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Jumps\DogJump		194340
+	133879243	CatFootStep01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep01		96064
+	176938474	DogFootStep01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep01		96064
+	207709237	DogFootStep05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep05		96064
+	237305732	DogFootStep02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep02		96064
+	258539454	DogFootStep04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep04		96064
 	279185434	Music_Background_68bpm_4-4_L16M_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Characters\Music_Background_68bpm_4-4_L16M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Music_Background_68bpm_4-4_L16M_P0		11520064
-	289579438	CatFootStep04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\CatFootSteps\CatFootStep04		96064
+	289579438	CatFootStep04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep04		96064
 	300375389	LeverUp	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\LeverUp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Lever\LeverUp		96064
 	316565971	Characters	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Characters\Music_Dog_68bpm_4-4_L16M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Characters		11520064
 	334876925	LeverDown	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\LeverDown_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Lever\LeverDown		96064
-	483778339	CatFootStep05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\CatFootSteps\CatFootStep05		96064
+	483778339	CatFootStep05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep05		96064
 	543499227	Stinger_Chameleon_68bpm_L1B_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Stinger_Chameleon_68bpm_L1B_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\Stinger_Chameleon_68bpm_L1B_P0\Stinger_Chameleon_68bpm_L1B_P0		84770
-	607878142	CatFootStep03	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\CatFootSteps\CatFootStep03		96064
+	607878142	CatFootStep03	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep03		96064
+	680362066	CatJump	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Jumps\CatJump		127154
 	696646933	Characters	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Characters\Music_Chameleon_68bpm_4-4_L16MP0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Characters		11520064
-	727743629	DogFootStep03	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\DogFootSteps\DogFootStep03		96064
-	776314052	CatFootStep02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\CatFootSteps\CatFootStep02		96064
+	727743629	DogFootStep03	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep03		96064
+	776314052	CatFootStep02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep02		96064
 	831017732	Stinger_CatMeow_68bpm_4-4_L1B_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Stinger_CatMeow_68bpm_4-4_L1B_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\Stinger_CatMeow_68bpm_4-4_L1B_P0\Stinger_CatMeow_68bpm_4-4_L1B_P0		169476
 	862276616	Stinger_DogBark_68bpm_L1B_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Stinger_DogBark_68bpm_L1B_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\Stinger_DogBark_68bpm_L1B_P0\Stinger_DogBark_68bpm_L1B_P0		84616
+	915545166	ChameleonJump	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\ChameleonJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Jumps\ChameleonJump		132734
 	950107177	Characters	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Characters\Music_Cat_68bpm_4-4_L16M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Characters		11520064
 
