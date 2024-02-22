@@ -7,13 +7,9 @@
 					<ChildrenList>
 						<Action Name="" ID="{C44FEBA8-4398-4391-9586-EF00EF3C56AA}" ShortID="432395969">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="ActionType" Type="int16" Value="3"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PetMusic" ID="{874B65B0-1DEF-4815-A7C7-1472A3A2DDE3}" WorkUnitID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 						</Action>
 						<Action Name="" ID="{574C90A5-C0AB-4005-92C3-CE0D962217F2}" ShortID="1049241972">
 							<ReferenceList>

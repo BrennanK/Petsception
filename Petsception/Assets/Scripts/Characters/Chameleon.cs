@@ -162,7 +162,7 @@ public class Chameleon : Pet
 
     }
 
-    private bool isGrounded()
+    public bool isGrounded()
     {
         return Physics2D.BoxCast(box.bounds.center, box.bounds.size, 0f, Vector2.down, .1f, ground);
     }

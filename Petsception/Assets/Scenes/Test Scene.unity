@@ -11372,7 +11372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970039913039845098, guid: e9e0fcc054d478b478a6ba53293f3129, type: 3}
       propertyPath: Mute
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970039913039845098, guid: e9e0fcc054d478b478a6ba53293f3129, type: 3}
       propertyPath: m_Enabled
@@ -11636,10 +11636,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: bf4796adc87f74c3e81685a25feca0e3, type: 2}
-  BackgroundMusic:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 316c025557e644ab58eb2e8915f5c408, type: 2}
 --- !u!4 &1501672297
 Transform:
   m_ObjectHideFlags: 0

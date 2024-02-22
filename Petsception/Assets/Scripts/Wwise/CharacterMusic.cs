@@ -39,4 +39,9 @@ public class CharacterMusic : MonoBehaviour
         }*/
 
     }
+
+    private void OnDestroy()
+    {
+        AkSoundEngine.StopAll(gameObject);
+    }
 }
