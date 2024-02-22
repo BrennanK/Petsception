@@ -45,7 +45,26 @@
 						</Bus>
 						<Bus Name="SFX" ID="{06EFCC08-CDA5-47A6-9ED6-E05125810365}">
 							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{66EBD2E1-09B8-41C4-A18E-A8F36322470D}"/>
+									<DuckingParam>
+										<Volume>-3</Volume>
+										<FadeInTime>0.5</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
+						<AuxBus Name="Reverb" ID="{B4ACCF28-1F02-4381-94CE-C40618B62500}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Small" ID="{D65B5F04-B83B-412C-9434-34A13A477E24}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>

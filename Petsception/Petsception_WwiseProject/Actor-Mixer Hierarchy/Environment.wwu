@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}" SchemaVersion="103" RootDocumentID="{77BF8E91-A79B-4FE3-AE28-03925326FFC9}" ParentDocumentID="{77BF8E91-A79B-4FE3-AE28-03925326FFC9}">
+	<AudioObjects>
+		<WorkUnit Name="Environment" ID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}" OwnerID="{77BF8E91-A79B-4FE3-AE28-03925326FFC9}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Lever" ID="{8E390730-E933-47C8-9DE7-79B5283C9E10}" ShortID="822073770">
+					<ChildrenList>
+						<Sound Name="LeverDown" ID="{FA3211B8-B95A-425A-A8AD-AC87331D64B4}" ShortID="402628789">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{06EFCC08-CDA5-47A6-9ED6-E05125810365}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{B4ACCF28-1F02-4381-94CE-C40618B62500}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeverDown" ID="{22679158-402B-4EA0-BB23-E5DB1CAEF571}">
+									<Language>SFX</Language>
+									<AudioFile>LeverDown.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="334876925"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LeverDown" ID="{22679158-402B-4EA0-BB23-E5DB1CAEF571}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LeverUp" ID="{2FAC6F2E-9ABD-4D61-A51A-A9B3D04B411D}" ShortID="889716193">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{B4ACCF28-1F02-4381-94CE-C40618B62500}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeverUp" ID="{47F401AC-458B-43EB-9F47-15F91C4B093A}">
+									<Language>SFX</Language>
+									<AudioFile>LeverUp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="300375389"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LeverUp" ID="{47F401AC-458B-43EB-9F47-15F91C4B093A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
