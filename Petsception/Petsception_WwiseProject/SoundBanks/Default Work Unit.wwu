@@ -6,10 +6,14 @@
 				<SoundBank Name="Petsception" ID="{962AB21A-E9A0-4F35-855F-C46C3A32DD89}">
 					<ObjectInclusionList>
 						<ObjectRef Name="DogFootSteps" ID="{9CF862A9-1AC0-4024-BA7B-B679316F2307}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CatJump" ID="{B7771A20-A694-4061-AAC1-8D731F7D9EEB}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BackgroundMusic" ID="{40B0D4C3-E887-4127-A8E1-3BB6CF786710}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ChameleonSelected" ID="{79748E27-A6A4-4336-AF85-FFECFE4BA07F}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CatFootSteps" ID="{E90007CF-C9C4-4426-9832-2737E00CA8EE}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LeverDown" ID="{F3820F65-7EAF-4434-BF2E-08269E5C8460}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ChameleonFootSteps" ID="{2DFB5CD5-1A27-4480-91ED-24EED55E224A}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ChameleonJump" ID="{2AAEF8FC-D18F-448C-B051-68D563A30342}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DogJump" ID="{0C99187A-1B9C-467A-B339-14DBFEC3CE28}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DogSelected" ID="{7D474039-2090-4681-B39B-61DA0E51CA69}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CatSelected" ID="{03100BED-B40D-4A83-8F07-0D52CF1C35EE}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PetMusicPlay" ID="{1443ED91-0322-4B6D-A670-8399DB870E07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>

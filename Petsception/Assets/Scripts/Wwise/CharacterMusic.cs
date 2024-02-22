@@ -8,6 +8,7 @@ public class CharacterMusic : MonoBehaviour
     public AK.Wwise.Event DogEvent;
     public AK.Wwise.Event CatEvent;
     public AK.Wwise.Event ChameleonEvent;
+    //public AK.Wwise.Event BackgroundMusic;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,16 +20,23 @@ public class CharacterMusic : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
+            Debug.Log("1pressed");
             DogEvent.Post(gameObject);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
+            Debug.Log("2pressed");
             CatEvent.Post(gameObject);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             ChameleonEvent.Post(gameObject);
+            Debug.Log("3pressed");
         }
+        /*else
+        {
+            BackgroundMusic.Post(gameObject);
+        }*/
 
     }
 }
