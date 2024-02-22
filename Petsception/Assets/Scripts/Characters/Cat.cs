@@ -15,7 +15,10 @@ public class Cat : Pet
 
     public AK.Wwise.Event CatJump;
   
-   
+   public float getDirX()
+    {
+        return dirX;
+    }
     // Start is called before the first frame update
     void Start()
     {
