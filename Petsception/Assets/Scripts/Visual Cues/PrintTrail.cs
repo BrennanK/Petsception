@@ -62,4 +62,16 @@ public class PrintTrail : MonoBehaviour
             stopTrail();
         }
     }
+
+    public void displayTrail(Component sender, object data)
+    {
+        if(data is Chameleon)
+        {
+            startTrail();
+        }
+        else
+        {
+            stopTrail();
+        }
+    }
 }
