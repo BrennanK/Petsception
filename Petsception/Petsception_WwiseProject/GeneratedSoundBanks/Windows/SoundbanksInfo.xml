@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1334686786">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2518615684">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -23,7 +23,7 @@
 				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154448043" Language="SFX" Hash="769814160">
+		<SoundBank Id="4154448043" Language="SFX" Hash="536270241">
 			<ObjectPath>\SoundBanks\Default Work Unit\Petsception</ObjectPath>
 			<ShortName>Petsception</ShortName>
 			<Path>Petsception.bnk</Path>
