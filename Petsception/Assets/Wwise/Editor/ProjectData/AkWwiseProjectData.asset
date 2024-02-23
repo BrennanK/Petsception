@@ -38,8 +38,45 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 80f35687b51afe44a0b5859c63c503d9
     GuidInternal: 
-    m_lastTime: -8584929776114976377
+    m_lastTime: -8584929572407827019
     List:
+    - name: ClimbPrints
+      guid: 64b6ecb73734fe468b2820a53cf2e8a3
+      id: 3193830764
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80f35687b51afe44a0b5859c63c503d9
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 08ccef06a5cda6479ed6e05125810365
+      - ElementName: ClimbPrints
+        ObjectType: 2
+        guid: 64b6ecb73734fe468b2820a53cf2e8a3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/ClimbPrints
+    - name: ClimbPrintsReverb
+      guid: 28cfacb4021f814394cec40618b62500
+      id: 215064384
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80f35687b51afe44a0b5859c63c503d9
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: ClimbPrintsReverb
+        ObjectType: 1
+        guid: 28cfacb4021f814394cec40618b62500
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/ClimbPrintsReverb
     - name: FootStepSounds
       guid: 65a4de8395fea34f93518227c230618f
       id: 1446621239
@@ -111,23 +148,6 @@ MonoBehaviour:
         ObjectType: 2
         guid: c5c47c8de354ca47804a9a48290da613
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/PetJumpSounds
-    - name: Reverb
-      guid: 28cfacb4021f814394cec40618b62500
-      id: 348963605
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 80f35687b51afe44a0b5859c63c503d9
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb
-        ObjectType: 1
-        guid: 28cfacb4021f814394cec40618b62500
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Reverb
     - name: SFX
       guid: 08ccef06a5cda6479ed6e05125810365
       id: 393239870
@@ -145,6 +165,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: 08ccef06a5cda6479ed6e05125810365
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX
+    - name: SmallReverb
+      guid: 7a7f0f7ee8f9ae42bb71568b550f4d80
+      id: 2134960294
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80f35687b51afe44a0b5859c63c503d9
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SmallReverb
+        ObjectType: 1
+        guid: 7a7f0f7ee8f9ae42bb71568b550f4d80
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SmallReverb
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
@@ -157,7 +194,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 452a4a91c976a444abe43b1c474cebd8
     GuidInternal: 
-    m_lastTime: -8584929786372651979
+    m_lastTime: -8584929563502426032
     List:
     - name: Petsception
       guid: 1ab22a96a0e9354f855fc46c3a32dd89
@@ -185,7 +222,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: ad8fa1412690ef4abe2d31631ad2312b
     GuidInternal: 
-    m_lastTime: -8584929786372790682
+    m_lastTime: -8584929563502722811
     List:
     - name: BackgroundMusic
       guid: c3d4b04087e82741a8e13bb6cf786710
@@ -306,6 +343,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: ClimbTailScene1
+      guid: bd431c44da50cf48b3c9478591bc6fba
+      id: 3018892155
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: ClimbTailScene1
+        ObjectType: 3
+        guid: bd431c44da50cf48b3c9478591bc6fba
+      Path: Events/Default Work Unit/ClimbTailScene1
+      maxAttenuation: 0
+      maxDuration: 1.098928
+      minDuration: 0.924084
+    - name: ClimbTailScene2
+      guid: f1b3be16c76d844da024f9c4678c7c07
+      id: 3018892152
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: ClimbTailScene2
+        ObjectType: 3
+        guid: f1b3be16c76d844da024f9c4678c7c07
+      Path: Events/Default Work Unit/ClimbTailScene2
+      maxAttenuation: 0
+      maxDuration: 0.882354
+      minDuration: 0.882354
     - name: DogFootSteps
       guid: a962f89cc01a2440ba7bb679316f2307
       id: 2154718686

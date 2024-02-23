@@ -19942,6 +19942,10 @@ MonoBehaviour:
   - {fileID: 47055847}
   - {fileID: 1062411338}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &612045146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20339,6 +20343,10 @@ MonoBehaviour:
   - {fileID: 1970327589}
   - {fileID: 1794039177}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 03a667051fb024547b7653ead875d6d0, type: 2}
 --- !u!4 &696062640
 Transform:
   m_ObjectHideFlags: 0
@@ -21298,6 +21306,10 @@ MonoBehaviour:
   - {fileID: 1641272758}
   - {fileID: 1499250027}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &1104145939
 Transform:
   m_ObjectHideFlags: 0
@@ -21869,6 +21881,10 @@ MonoBehaviour:
   - {fileID: 1816011752}
   - {fileID: 1374632241}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1297600736
 GameObject:
   m_ObjectHideFlags: 0
@@ -24282,6 +24298,10 @@ MonoBehaviour:
   - {fileID: 1353607486}
   - {fileID: 1297600736}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 03a667051fb024547b7653ead875d6d0, type: 2}
 --- !u!4 &1822671250
 Transform:
   m_ObjectHideFlags: 0
@@ -28840,6 +28860,10 @@ PrefabInstance:
       propertyPath: abilityCoolodwnTime
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2343930289001028266, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
+      propertyPath: DogJump.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3986df7dfad2b475fa4f07cdf00f679b, type: 2}
     - target: {fileID: 2343930289001028268, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -28933,6 +28957,10 @@ PrefabInstance:
       propertyPath: knockBackForce
       value: -2
       objectReference: {fileID: 0}
+    - target: {fileID: 5372932502424523924, guid: 582cd203a29a8c041aca34da82035351, type: 3}
+      propertyPath: ChameleonJump.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: c7774ec6fa78246a9b1d69b7fadfc541, type: 2}
     - target: {fileID: 5372932502424523925, guid: 582cd203a29a8c041aca34da82035351, type: 3}
       propertyPath: climbSpeed
       value: 2
@@ -29046,6 +29074,10 @@ PrefabInstance:
       propertyPath: jumpHeight
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 8102601523842019153, guid: 3f45ba29e6da44445a44bc63e5c9b419, type: 3}
+      propertyPath: CatJump.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: de663a59b1bdb4c9d902927d693c4595, type: 2}
     - target: {fileID: 8102601523842019156, guid: 3f45ba29e6da44445a44bc63e5c9b419, type: 3}
       propertyPath: m_SortingOrder
       value: 1

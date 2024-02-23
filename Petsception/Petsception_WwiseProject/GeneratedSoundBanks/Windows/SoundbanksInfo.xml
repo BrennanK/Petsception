@@ -11,18 +11,19 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1988775224">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1334686786">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+				<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
+				<AuxBus Id="2134960294" Name="SmallReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154448043" Language="SFX" Hash="980086091">
+		<SoundBank Id="4154448043" Language="SFX" Hash="769814160">
 			<ObjectPath>\SoundBanks\Default Work Unit\Petsception</ObjectPath>
 			<ShortName>Petsception</ShortName>
 			<Path>Petsception.bnk</Path>
@@ -112,6 +113,28 @@
 						<ActionTriggerEntry Id="1887853562" Name="ChameleonSound" ObjectPath="\Triggers\Default Work Unit\ChameleonSound"/>
 					</ActionTrigger>
 				</Event>
+				<Event Id="3018892155" Name="ClimbTailScene1" ObjectPath="\Events\Default Work Unit\ClimbTailScene1" DurationType="OneShot" DurationMin="0.924084" DurationMax="1.098928">
+					<IncludedMemoryFiles>
+						<File Id="566225425" Language="SFX">
+							<ShortName>ClimbPrintsP05.wav</ShortName>
+							<Path>SFX/ClimbPrintsP05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3018892152" Name="ClimbTailScene2" ObjectPath="\Events\Default Work Unit\ClimbTailScene2" DurationType="OneShot" DurationMin="0.882354" DurationMax="0.882354">
+					<IncludedMemoryFiles>
+						<File Id="37154125" Language="SFX">
+							<ShortName>ClimbPrint04.wav</ShortName>
+							<Path>SFX/ClimbPrint04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="2154718686" Name="DogFootSteps" ObjectPath="\Events\Default Work Unit\DogFootSteps" DurationType="OneShot" DurationMin="0.471937" DurationMax="0.529732">
 					<IncludedMemoryFiles>
 						<File Id="176938474" Language="SFX">
@@ -160,7 +183,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1662764780" Name="LeverUp" ObjectPath="\Events\Default Work Unit\LeverUp" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
@@ -171,7 +194,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2891037199" Name="PetMusicPlay" ObjectPath="\Events\Default Work Unit\PetMusicPlay" DurationType="Infinite">

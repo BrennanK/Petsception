@@ -8,6 +8,13 @@ public class DogFootSteps : MonoBehaviour
     
     public float DogYPosition;
 
+    private Dog DogScript;
+
+    private void Start()
+    {
+        DogScript = GetComponent<Dog>();
+    }
+
     private void Update()
     {
         DogYPosition = gameObject.transform.position.y;
@@ -15,7 +22,7 @@ public class DogFootSteps : MonoBehaviour
 
     public void PlayFootStepSound()
     {
-        if (DogYPosition < -3.0)
+        if (DogScript.isGrounded())
         {
             DogFootStepSounds.Post(gameObject);
         }

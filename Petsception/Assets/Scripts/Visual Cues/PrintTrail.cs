@@ -13,6 +13,8 @@ public class PrintTrail : MonoBehaviour
     [SerializeField]
     private float speedInSeconds;
 
+    public AK.Wwise.Event ClimbPrintSound;
+
     void Start()
     {
         //startTrail();
@@ -23,6 +25,7 @@ public class PrintTrail : MonoBehaviour
         if(i<prints.Count)
         {
             prints[i].SetActive(true);
+            ClimbPrintSound.Post(gameObject);
             i++;
         }
         else
