@@ -24,11 +24,37 @@ public class CharacterUI : MonoBehaviour
     [SerializeField]
     TMP_Text abilityText;
 
+    public enum startingPet
+    {
+        Dog,
+        Cat,
+        Chameleon
+    };
+
+    [SerializeField]
+    private startingPet starter;
+
     // Start is called before the first frame update
     private void Start()
     {
-        chameleonBorder.sprite = selectedChar;
-        abilityText.text = "Camo";
+
+        if(starter==startingPet.Dog)
+        {
+            dogBorder.sprite = selectedChar;
+            abilityText.text = "Bark";
+        }
+
+        if (starter == startingPet.Cat)
+        {
+            catBorder.sprite = selectedChar;
+            abilityText.text = "Slow";
+        }
+        if (starter == startingPet.Chameleon)
+        {
+            chameleonBorder.sprite = selectedChar;
+            abilityText.text = "Camo";
+        }
+        
     }
 
     public void updateCharacterUI(Component sender, object data)
