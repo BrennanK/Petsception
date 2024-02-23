@@ -15,8 +15,10 @@
 						<ObjectRef Name="ChameleonJump" ID="{2AAEF8FC-D18F-448C-B051-68D563A30342}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DogJump" ID="{0C99187A-1B9C-467A-B339-14DBFEC3CE28}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DogSelected" ID="{7D474039-2090-4681-B39B-61DA0E51CA69}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ClimbTailScene1" ID="{441C43BD-50DA-48CF-B3C9-478591BC6FBA}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CatSelected" ID="{03100BED-B40D-4A83-8F07-0D52CF1C35EE}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PetMusicPlay" ID="{1443ED91-0322-4B6D-A670-8399DB870E07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ClimbTailScene2" ID="{16BEB3F1-6DC7-4D84-A024-F9C4678C7C07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LeverUp" ID="{C853A187-DC2E-4FA0-AB33-60BF1F3F1E86}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

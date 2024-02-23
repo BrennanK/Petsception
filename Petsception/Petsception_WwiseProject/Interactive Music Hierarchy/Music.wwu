@@ -426,6 +426,11 @@
 						<MusicSegment Name="Stinger_Chameleon_68bpm_L1B_P0" ID="{A4D6457F-CD58-4B5A-9D85-3C48EDF62848}" ShortID="902121022">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="68"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

@@ -49,7 +49,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -59,7 +59,17 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="ClimbPrints" ID="{B7ECB664-3437-46FE-8B28-20A53CF2E8A3}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -79,10 +89,21 @@
 								</DuckItem>
 							</DuckingList>
 						</Bus>
-						<AuxBus Name="Reverb" ID="{B4ACCF28-1F02-4381-94CE-C40618B62500}">
+						<AuxBus Name="ClimbPrintsReverb" ID="{B4ACCF28-1F02-4381-94CE-C40618B62500}">
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Hall_Small" ID="{D65B5F04-B83B-412C-9434-34A13A477E24}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="ReverbCompressor" ID="{5779D220-35BD-44D6-8CFF-DA9CEAC231D3}" WorkUnitID="{5B483790-46E3-4CD8-82BF-74101C527916}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="SmallReverb" ID="{7E0F7F7A-F9E8-42AE-BB71-568B550F4D80}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Plate_Small" ID="{5681977F-CD7F-4D09-AA58-118BEFA48C8C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 							</ReferenceList>
 							<ObjectLists/>

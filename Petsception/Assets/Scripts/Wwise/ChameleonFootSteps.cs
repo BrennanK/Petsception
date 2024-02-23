@@ -8,13 +8,20 @@ public class ChameleonFootSteps : MonoBehaviour
 
     public float ChameleonYPosition;
 
+    private Chameleon ChameleonScript; //Reference to the Chameleon Script
+
+    private void Start()
+    {
+        ChameleonScript = GetComponent<Chameleon>();// Get a reference to Chameleon Script on the same game object
+    }
+
     private void Update()
     {
         ChameleonYPosition = gameObject.transform.position.y;
     }
     public void ChameleonStepSoundPlay()
     {
-        if (ChameleonYPosition < -3.616)
+        if (ChameleonScript.isGrounded())
         {
             ChameleonFootStepSounds.Post(gameObject);
         }

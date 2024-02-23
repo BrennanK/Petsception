@@ -35,6 +35,8 @@ public class Game_Manager : MonoBehaviour
     private GameObject nextPuzzleMenu;
 
     private bool isGameOver;
+
+    
     // Start is called before the first frame update
     void Awake()
     {
@@ -109,6 +111,7 @@ public class Game_Manager : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
     }
 
     public void solvedPuzzle()
