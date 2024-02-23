@@ -194,7 +194,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 452a4a91c976a444abe43b1c474cebd8
     GuidInternal: 
-    m_lastTime: -8584929563502426032
+    m_lastTime: -8584928773386507287
     List:
     - name: Petsception
       guid: 1ab22a96a0e9354f855fc46c3a32dd89
@@ -222,7 +222,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: ad8fa1412690ef4abe2d31631ad2312b
     GuidInternal: 
-    m_lastTime: -8584929563502722811
+    m_lastTime: -8584928779066211309
     List:
     - name: BackgroundMusic
       guid: c3d4b04087e82741a8e13bb6cf786710
@@ -377,6 +377,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.882354
       minDuration: 0.882354
+    - name: DogBark
+      guid: f06d70c8d374964eb456fe445c254fe6
+      id: 4158688515
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: DogBark
+        ObjectType: 3
+        guid: f06d70c8d374964eb456fe445c254fe6
+      Path: Events/Default Work Unit/DogBark
+      maxAttenuation: 0
+      maxDuration: 0.882354
+      minDuration: 0.786088
     - name: DogFootSteps
       guid: a962f89cc01a2440ba7bb679316f2307
       id: 2154718686

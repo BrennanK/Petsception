@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID CHAMELEONSELECTED = 202981074U;
         static const AkUniqueID CLIMBTAILSCENE1 = 3018892155U;
         static const AkUniqueID CLIMBTAILSCENE2 = 3018892152U;
+        static const AkUniqueID DOGBARK = 4158688515U;
         static const AkUniqueID DOGFOOTSTEPS = 2154718686U;
         static const AkUniqueID DOGJUMP = 1879996273U;
         static const AkUniqueID DOGSELECTED = 4114262194U;

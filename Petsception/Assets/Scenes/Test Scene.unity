@@ -13313,6 +13313,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2343930289001028266, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
+      propertyPath: DogBark.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 77ad869ddd52849efafa7bd6b1407ef2, type: 2}
+    - target: {fileID: 2343930289001028266, guid: c85fe9de66858c943a44eb98712a557e, type: 3}
       propertyPath: DogJump.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 3986df7dfad2b475fa4f07cdf00f679b, type: 2}

@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3018892155	ClimbTailScene1			\Default Work Unit\ClimbTailScene1	
 	3024246768	CatSelected			\Default Work Unit\CatSelected	
 	4114262194	DogSelected			\Default Work Unit\DogSelected	
+	4158688515	DogBark			\Default Work Unit\DogBark	
 
 Trigger	ID	Name			Wwise Object Path	Notes
 	1887853562	ChameleonSound			\Default Work Unit\ChameleonSound	
@@ -25,17 +26,21 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	789056	DogJump	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Jumps\DogJump		194340
+	32238445	DogBark006	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogBark006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark006		169476
 	37154125	ClimbPrint04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\ClimbPrint04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ClimbPrint\ClimbPrint04		169476
 	133879243	CatFootStep01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\CatFootStep01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep01		96064
+	157859316	DogBark01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogBark01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark01		169476
 	176938474	DogFootStep01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogFootStep01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep01		96064
 	207709237	DogFootStep05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogFootStep05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep05		96064
 	237305732	DogFootStep02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogFootStep02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep02		96064
 	258539454	DogFootStep04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogFootStep04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep04		96064
 	279185434	Music_Background_68bpm_4-4_L16M_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\Characters\Music_Background_68bpm_4-4_L16M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Music_Background_68bpm_4-4_L16M_P0		11520064
 	289579438	CatFootStep04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\CatFootStep04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep04		96064
+	293398692	DogBark02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogBark02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark02		169476
 	300375389	LeverUp	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\LeverUp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Lever\LeverUp		96064
 	316565971	Characters	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\Characters\Music_Dog_68bpm_4-4_L16M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Characters		11520064
 	334876925	LeverDown	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\LeverDown_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Lever\LeverDown		96064
+	441761607	DogBark04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogBark04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark04		169476
 	483778339	CatFootStep05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\CatFootStep05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep05		96064
 	543499227	Stinger_Chameleon_68bpm_L1B_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\Stinger_Chameleon_68bpm_L1B_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\Stinger_Chameleon_68bpm_L1B_P0\Stinger_Chameleon_68bpm_L1B_P0		84770
 	566225425	ClimbPrint01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\ClimbPrintsP05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ClimbPrint\ClimbPrint01		169476
@@ -43,6 +48,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	680362066	CatJump	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\CatJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Jumps\CatJump		127154
 	696646933	Characters	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\Characters\Music_Chameleon_68bpm_4-4_L16MP0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Characters		11520064
 	727743629	DogFootStep03	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogFootStep03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep03		96064
+	741783941	DogBark05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\DogBark05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark05		169476
 	776314052	CatFootStep02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\CatFootStep02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep02		96064
 	831017732	Stinger_CatMeow_68bpm_4-4_L1B_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\Stinger_CatMeow_68bpm_4-4_L1B_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\Stinger_CatMeow_68bpm_4-4_L1B_P0\Stinger_CatMeow_68bpm_4-4_L1B_P0		169476
 	862276616	Stinger_DogBark_68bpm_L1B_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Windows\SFX\Stinger_DogBark_68bpm_L1B_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\Stinger_DogBark_68bpm_L1B_P0\Stinger_DogBark_68bpm_L1B_P0		84616

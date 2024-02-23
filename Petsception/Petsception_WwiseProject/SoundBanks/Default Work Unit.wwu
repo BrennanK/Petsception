@@ -19,6 +19,7 @@
 						<ObjectRef Name="CatSelected" ID="{03100BED-B40D-4A83-8F07-0D52CF1C35EE}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PetMusicPlay" ID="{1443ED91-0322-4B6D-A670-8399DB870E07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClimbTailScene2" ID="{16BEB3F1-6DC7-4D84-A024-F9C4678C7C07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DogBark" ID="{C8706DF0-74D3-4E96-B456-FE445C254FE6}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LeverUp" ID="{C853A187-DC2E-4FA0-AB33-60BF1F3F1E86}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

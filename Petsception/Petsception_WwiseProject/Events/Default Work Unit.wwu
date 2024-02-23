@@ -216,6 +216,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="DogBark" ID="{C8706DF0-74D3-4E96-B456-FE445C254FE6}">
+					<ChildrenList>
+						<Action Name="" ID="{E3306FCC-8D94-4CBD-AB1B-0B6BFA37F8D3}" ShortID="1046756790">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DogBark" ID="{EFD4EB58-1549-4B64-9B56-78FC6297E9C9}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

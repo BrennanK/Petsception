@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{1E880FF3-D29F-4686-A500-80C1D76FE0F6}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\P1\Game Jams\Petsception\Petsception Project\Audio\SFX\ClimbTrail\ClimbPrintsR\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\P1\Game Jams\Petsception\Petsception Project\Audio\SFX\Pet\DogBarks\Wet\"/>
 				<Property Name="Event Action List\{03100BED-B40D-4A83-8F07-0D52CF1C35EE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0C99187A-1B9C-467A-B339-14DBFEC3CE28}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1443ED91-0322-4B6D-A670-8399DB870E07}\x64_Expand States" Type="string" Value=""/>
@@ -17,6 +17,7 @@
 				<Property Name="Event Action List\{9CF862A9-1AC0-4024-BA7B-B679316F2307}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B7771A20-A694-4061-AAC1-8D731F7D9EEB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C853A187-DC2E-4FA0-AB33-60BF1F3F1E86}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C8706DF0-74D3-4E96-B456-FE445C254FE6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E90007CF-C9C4-4426-9832-2737E00CA8EE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F3820F65-7EAF-4434-BF2E-08269E5C8460}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
