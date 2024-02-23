@@ -46,6 +46,14 @@
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="ClimbTailScene1" ID="{441C43BD-50DA-48CF-B3C9-478591BC6FBA}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ClimbTailScene2" ID="{16BEB3F1-6DC7-4D84-A024-F9C4678C7C07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="LeverDown" ID="{F3820F65-7EAF-4434-BF2E-08269E5C8460}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
 							<Position X="4" Y="0"/>
 						</Module>
@@ -62,7 +70,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dog" ID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}"/>
+						<CurrentSwitchRef Name="Chameleon" ID="{6A1C60FE-A6BA-4615-A241-48E784777D13}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

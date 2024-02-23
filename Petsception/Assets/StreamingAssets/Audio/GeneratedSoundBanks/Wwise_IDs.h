@@ -20,6 +20,8 @@ namespace AK
         static const AkUniqueID CHAMELEONFOOTSTEPS = 2698295934U;
         static const AkUniqueID CHAMELEONJUMP = 148164753U;
         static const AkUniqueID CHAMELEONSELECTED = 202981074U;
+        static const AkUniqueID CLIMBTAILSCENE1 = 3018892155U;
+        static const AkUniqueID CLIMBTAILSCENE2 = 3018892152U;
         static const AkUniqueID DOGFOOTSTEPS = 2154718686U;
         static const AkUniqueID DOGJUMP = 1879996273U;
         static const AkUniqueID DOGSELECTED = 4114262194U;
@@ -65,6 +67,7 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID CLIMBPRINTS = 3193830764U;
         static const AkUniqueID FOOTSTEPSOUNDS = 1446621239U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
@@ -74,7 +77,8 @@ namespace AK
 
     namespace AUX_BUSSES
     {
-        static const AkUniqueID REVERB = 348963605U;
+        static const AkUniqueID CLIMBPRINTSREVERB = 215064384U;
+        static const AkUniqueID SMALLREVERB = 2134960294U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

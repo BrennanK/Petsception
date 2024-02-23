@@ -194,6 +194,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ClimbTailScene1" ID="{441C43BD-50DA-48CF-B3C9-478591BC6FBA}">
+					<ChildrenList>
+						<Action Name="" ID="{22C70788-7FD3-422D-A7FD-CC59EF9DA9EE}" ShortID="916041706">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClimbPrint01" ID="{BD52209D-B3F1-465A-A859-E38D5BCD3A3E}" WorkUnitID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ClimbTailScene2" ID="{16BEB3F1-6DC7-4D84-A024-F9C4678C7C07}">
+					<ChildrenList>
+						<Action Name="" ID="{67D36F9B-FE2B-4B67-90A6-3A29283CA788}" ShortID="354668911">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClimbPrint04" ID="{5684867A-F5E6-4DE6-ACD2-9D7CD52AB6DF}" WorkUnitID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

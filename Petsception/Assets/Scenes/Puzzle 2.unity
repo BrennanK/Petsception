@@ -19942,6 +19942,10 @@ MonoBehaviour:
   - {fileID: 47055847}
   - {fileID: 1062411338}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &612045146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20339,6 +20343,10 @@ MonoBehaviour:
   - {fileID: 1970327589}
   - {fileID: 1794039177}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 03a667051fb024547b7653ead875d6d0, type: 2}
 --- !u!4 &696062640
 Transform:
   m_ObjectHideFlags: 0
@@ -21298,6 +21306,10 @@ MonoBehaviour:
   - {fileID: 1641272758}
   - {fileID: 1499250027}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &1104145939
 Transform:
   m_ObjectHideFlags: 0
@@ -21869,6 +21881,10 @@ MonoBehaviour:
   - {fileID: 1816011752}
   - {fileID: 1374632241}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1297600736
 GameObject:
   m_ObjectHideFlags: 0
@@ -24282,6 +24298,10 @@ MonoBehaviour:
   - {fileID: 1353607486}
   - {fileID: 1297600736}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 03a667051fb024547b7653ead875d6d0, type: 2}
 --- !u!4 &1822671250
 Transform:
   m_ObjectHideFlags: 0

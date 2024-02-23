@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{5B483790-46E3-4CD8-82BF-74101C527916}" PersistMode="Standalone">
 			<ChildrenList>
 				<Effect Name="New_iZotope_Hybrid_Reverb" ID="{EAD6C0E4-4251-4B5E-BBE0-A0C1A05308CF}" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3"/>
+				<Effect Name="ReverbCompressor" ID="{5779D220-35BD-44D6-8CFF-DA9CEAC231D3}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

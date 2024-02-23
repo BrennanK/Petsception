@@ -10541,6 +10541,10 @@ MonoBehaviour:
   - {fileID: 128401663}
   - {fileID: 1085796185}
   speedInSeconds: 1
+  ClimbPrintSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45289ecf524b546bdbfc05271b8f9d75, type: 2}
 --- !u!114 &612045146
 MonoBehaviour:
   m_ObjectHideFlags: 0
