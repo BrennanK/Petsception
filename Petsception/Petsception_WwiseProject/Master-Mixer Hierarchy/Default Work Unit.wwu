@@ -75,6 +75,16 @@
 									</PropertyList>
 									<ObjectLists/>
 								</Bus>
+								<Bus Name="UI" ID="{DAB64FAF-78FB-4D64-BE29-C436498D4AB0}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
 							<DuckingList>

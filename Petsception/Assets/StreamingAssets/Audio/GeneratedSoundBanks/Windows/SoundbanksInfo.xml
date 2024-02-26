@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2518615684">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3825320052">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -23,7 +23,7 @@
 				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154448043" Language="SFX" Hash="3078846515">
+		<SoundBank Id="4154448043" Language="SFX" Hash="2509342688">
 			<ObjectPath>\SoundBanks\Default Work Unit\Petsception</ObjectPath>
 			<ShortName>Petsception</ShortName>
 			<Path>Petsception.bnk</Path>
@@ -221,6 +221,22 @@
 						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="1142510350" Name="MainMenuMusicPlay" ObjectPath="\Events\Default Work Unit\MainMenuMusicPlay" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="504573325" Language="SFX">
+							<ShortName>Music-MainMenu-68bpm-L16M-P0.wav</ShortName>
+							<Path>SFX/Music-MainMenu-68bpm-L16M-P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3478063044" Name="mouseHover" ObjectPath="\Events\Default Work Unit\mouseHover" DurationType="OneShot" DurationMin="0.882354" DurationMax="0.882354">
+					<IncludedMemoryFiles>
+						<File Id="789649583" Language="SFX">
+							<ShortName>Hover01_Reverb.wav</ShortName>
+							<Path>SFX/Hover01_Reverb_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2891037199" Name="PetMusicPlay" ObjectPath="\Events\Default Work Unit\PetMusicPlay" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="279185434" Language="SFX">
@@ -250,6 +266,22 @@
 						<File Id="950107177" Language="SFX">
 							<ShortName>Characters\Music_Cat_68bpm_4-4_L16M_P0.wav</ShortName>
 							<Path>SFX/Characters/Music_Cat_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1288685234" Name="UIClickPress" ObjectPath="\Events\Default Work Unit\UIClickPress" DurationType="OneShot" DurationMin="0.623919" DurationMax="0.623919">
+					<IncludedMemoryFiles>
+						<File Id="381946402" Language="SFX">
+							<ShortName>ClickA03_Reverb.wav</ShortName>
+							<Path>SFX/ClickA03_Reverb_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1048192572" Name="UIClickRelease" ObjectPath="\Events\Default Work Unit\UIClickRelease" DurationType="OneShot" DurationMin="0.623919" DurationMax="0.623919">
+					<IncludedMemoryFiles>
+						<File Id="988498777" Language="SFX">
+							<ShortName>ClickB03_Reverb.wav</ShortName>
+							<Path>SFX/ClickB03_Reverb_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

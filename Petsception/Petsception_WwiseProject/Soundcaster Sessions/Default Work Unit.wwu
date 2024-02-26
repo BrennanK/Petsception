@@ -30,6 +30,10 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="MainMenuMusicPlay" ID="{C9AA70EE-22BF-443D-9494-C0F27B9D2653}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="DogJump" ID="{0C99187A-1B9C-467A-B339-14DBFEC3CE28}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -40,6 +44,10 @@
 						<Module>
 							<ObjectRef Name="ChameleonJump" ID="{2AAEF8FC-D18F-448C-B051-68D563A30342}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
 							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mouseHover" ID="{44511AA7-94B1-48A6-85BC-703856AA72D8}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="PetMusicPlay" ID="{1443ED91-0322-4B6D-A670-8399DB870E07}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
@@ -65,16 +73,24 @@
 							<ObjectRef Name="LeverUp" ID="{C853A187-DC2E-4FA0-AB33-60BF1F3F1E86}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
 							<Position X="4" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="UIClickPress" ID="{D57C90D6-67FF-4AB4-BF61-5D38E52D242D}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UIClickRelease" ID="{C28FB375-8677-41E0-B14E-E350C3B13CD0}" WorkUnitID="{41A18FAD-9026-4AEF-BE2D-31631AD2312B}"/>
+							<Position X="4" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Volume" ID="{7CA2F1F6-ACE5-4AC3-A19B-C66CBF554DE2}"/>
-							<Value>52</Value>
+							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dog" ID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}"/>
+						<CurrentSwitchRef Name="Background" ID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

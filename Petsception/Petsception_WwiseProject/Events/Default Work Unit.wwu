@@ -227,6 +227,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="UIClickPress" ID="{D57C90D6-67FF-4AB4-BF61-5D38E52D242D}">
+					<ChildrenList>
+						<Action Name="" ID="{22BBCF7E-7851-46A7-B510-08172510300E}" ShortID="496858942">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClickA03_Reverb" ID="{2D5C257E-F8C2-4146-A3EA-020B565B379F}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UIClickRelease" ID="{C28FB375-8677-41E0-B14E-E350C3B13CD0}">
+					<ChildrenList>
+						<Action Name="" ID="{9EB8C754-6B61-4F21-A9AB-326A0D485D66}" ShortID="987844999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClickB03_Reverb" ID="{2DA9AB9D-F343-4435-B948-EE096AA92841}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mouseHover" ID="{44511AA7-94B1-48A6-85BC-703856AA72D8}">
+					<ChildrenList>
+						<Action Name="" ID="{0629B32A-7C84-486B-8C46-8B9492FB2BBA}" ShortID="286977613">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hover01_Reverb" ID="{7B809868-4527-40FF-A550-FEF6B7612D71}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MainMenuMusicPlay" ID="{C9AA70EE-22BF-443D-9494-C0F27B9D2653}">
+					<ChildrenList>
+						<Action Name="" ID="{B1CA7558-87D0-4333-BC8A-5782DC7C49EE}" ShortID="290305061">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{1C704ED3-43F7-4BD3-9E25-F3DCA4F2008D}" ShortID="143819431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuMusic" ID="{F7DF974F-BCF0-4ECC-852F-EC9508CBDFB2}" WorkUnitID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
