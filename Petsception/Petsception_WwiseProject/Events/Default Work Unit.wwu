@@ -152,7 +152,7 @@
 						<Action Name="" ID="{D75C9630-E603-44CA-8E77-A2E2A2EA6E4A}" ShortID="244599123">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="DogJump" ID="{66A35D0A-D67A-43CE-9973-79A0EF8C35D8}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+									<ObjectRef Name="DogJump03" ID="{D381DA04-5872-4DB7-B1D4-1909B0D64457}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -163,7 +163,7 @@
 						<Action Name="" ID="{D8F3B6B5-5C63-482E-8474-E5D060DF9A1B}" ShortID="326499751">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CatJump" ID="{3E57F961-5E72-4DB8-A666-6533141479FF}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+									<ObjectRef Name="CatJump03" ID="{85F659C1-06B8-4476-808A-94343864E6B5}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -174,7 +174,7 @@
 						<Action Name="" ID="{9D8A3F1B-6DBA-4DD7-82AE-1434EFC97185}" ShortID="946642192">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ChameleonJump" ID="{995100B4-BFA2-42D9-AFB1-F54E03059A22}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+									<ObjectRef Name="ChameleonJump03" ID="{6FB230AF-E3BC-4CA7-BAAD-4EACF51B094E}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -232,7 +232,7 @@
 						<Action Name="" ID="{22BBCF7E-7851-46A7-B510-08172510300E}" ShortID="496858942">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ClickA03_Reverb" ID="{2D5C257E-F8C2-4146-A3EA-020B565B379F}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
+									<ObjectRef Name="ClickA03_moreReverb" ID="{A53EB4FF-B8DB-419A-B3B7-CA4CB0B92CFA}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -243,7 +243,7 @@
 						<Action Name="" ID="{9EB8C754-6B61-4F21-A9AB-326A0D485D66}" ShortID="987844999">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ClickB03_Reverb" ID="{2DA9AB9D-F343-4435-B948-EE096AA92841}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
+									<ObjectRef Name="ClickB03_moreReverb" ID="{B82BBF7A-776F-4456-8EFB-208286FD9B29}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

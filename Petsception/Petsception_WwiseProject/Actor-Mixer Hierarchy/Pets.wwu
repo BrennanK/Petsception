@@ -798,6 +798,187 @@
 								<ActiveSource Name="CatJump" ID="{FF5D8C4C-7E08-4760-9DA1-21221C60C024}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="CatJump02" ID="{7AA542CE-3C7F-4F32-A02E-F6809677C061}" ShortID="162266628">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PetJumpSounds" ID="{8D7CC4C5-54E3-47CA-804A-9A48290DA613}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CatJump02" ID="{7CFDD3D4-2212-4EAE-B9A2-A4D03FE0F077}">
+									<Language>SFX</Language>
+									<AudioFile>CatJump02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="926479325"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CatJump02" ID="{7CFDD3D4-2212-4EAE-B9A2-A4D03FE0F077}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DogJump02" ID="{DC90D284-F0AD-414C-8DB6-A3291F862D7B}" ShortID="818633894">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PetJumpSounds" ID="{8D7CC4C5-54E3-47CA-804A-9A48290DA613}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DogJump02" ID="{889AC555-34B1-4DE5-8EE7-B8F28C9600DE}">
+									<Language>SFX</Language>
+									<AudioFile>DogJump02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="941400693"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DogJump02" ID="{889AC555-34B1-4DE5-8EE7-B8F28C9600DE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ChameleonJump02" ID="{BB8E9C78-8CEF-41C8-AFC6-D267395B3517}" ShortID="565035865">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PetJumpSounds" ID="{8D7CC4C5-54E3-47CA-804A-9A48290DA613}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChameleonJump02" ID="{73EE4B14-792A-4C72-91D5-3B1DBA0E117A}">
+									<Language>SFX</Language>
+									<AudioFile>ChameleonJump02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="599943335"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ChameleonJump02" ID="{73EE4B14-792A-4C72-91D5-3B1DBA0E117A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ChameleonJump03" ID="{6FB230AF-E3BC-4CA7-BAAD-4EACF51B094E}" ShortID="659766090">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChameleonJump03" ID="{F2225C09-2F16-4ADF-85D2-32BC222DACEF}">
+									<Language>SFX</Language>
+									<AudioFile>ChameleonJump03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1019271202"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ChameleonJump03" ID="{F2225C09-2F16-4ADF-85D2-32BC222DACEF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CatJump03" ID="{85F659C1-06B8-4476-808A-94343864E6B5}" ShortID="649418930">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CatJump03" ID="{3849DDB4-9EE1-4F91-9F22-62EA4ECFAB20}">
+									<Language>SFX</Language>
+									<AudioFile>CatJump03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="644818697"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CatJump03" ID="{3849DDB4-9EE1-4F91-9F22-62EA4ECFAB20}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DogJump03" ID="{D381DA04-5872-4DB7-B1D4-1909B0D64457}" ShortID="106489032">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DogJump03" ID="{E8D9726A-558C-4E30-B9BD-562B1BA75B2A}">
+									<Language>SFX</Language>
+									<AudioFile>DogJump03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="123952442"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DogJump03" ID="{E8D9726A-558C-4E30-B9BD-562B1BA75B2A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Abilities" ID="{B9473122-64B9-41CE-B30C-30E76021FDB1}" ShortID="14693500">
