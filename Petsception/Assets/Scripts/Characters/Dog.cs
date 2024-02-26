@@ -32,6 +32,7 @@ public class Dog : Pet
     private float scareTime;
 
     public AK.Wwise.Event DogJump;
+    public AK.Wwise.Event DogBark;
 
     public float getCooldown()
     {
@@ -72,6 +73,7 @@ public class Dog : Pet
         {
             onCooldown = true;
             petAbility();
+            DogBark.Post(gameObject);
         }
 
         updateAnimationState();

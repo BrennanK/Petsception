@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Petsception/Petsception/Petsception_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Petsception/Petsception/Petsception_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Petsception/Petsception/Petsception_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/shiwenluo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Petsception/Petsception/Petsception_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2222911254">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
+				<AuxBus Id="2134960294" Name="SmallReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallReverb"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="4154448043" Language="SFX" Hash="2509342688">
+			<ObjectPath>\SoundBanks\Default Work Unit\Petsception</ObjectPath>
+			<ShortName>Petsception</ShortName>
+			<Path>Petsception.bnk</Path>
+			<IncludedEvents>
+				<Event Id="626769978" Name="BackgroundMusic" ObjectPath="\Events\Default Work Unit\BackgroundMusic" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="3650723969" Name="Background" ObjectPath="\Switches\Default Work Unit\Characters\Background"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2436923116" Name="CatFootSteps" ObjectPath="\Events\Default Work Unit\CatFootSteps" DurationType="OneShot" DurationMin="0.471937" DurationMax="0.529732">
+					<IncludedMemoryFiles>
+						<File Id="133879243" Language="SFX">
+							<ShortName>CatFootStep01.wav</ShortName>
+							<Path>SFX/CatFootStep01_10C4C929.wem</Path>
+						</File>
+						<File Id="289579438" Language="SFX">
+							<ShortName>CatFootStep04.wav</ShortName>
+							<Path>SFX/CatFootStep04_10C4C929.wem</Path>
+						</File>
+						<File Id="483778339" Language="SFX">
+							<ShortName>CatFootStep05.wav</ShortName>
+							<Path>SFX/CatFootStep05_10C4C929.wem</Path>
+						</File>
+						<File Id="607878142" Language="SFX">
+							<ShortName>CatFootStep03.wav</ShortName>
+							<Path>SFX/CatFootStep03_10C4C929.wem</Path>
+						</File>
+						<File Id="776314052" Language="SFX">
+							<ShortName>CatFootStep02.wav</ShortName>
+							<Path>SFX/CatFootStep02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="244401571" Name="CatJump" ObjectPath="\Events\Default Work Unit\CatJump" DurationType="OneShot" DurationMin="1.323854" DurationMax="1.323854">
+					<IncludedMemoryFiles>
+						<File Id="680362066" Language="SFX">
+							<ShortName>CatJump.wav</ShortName>
+							<Path>SFX/CatJump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3024246768" Name="CatSelected" ObjectPath="\Events\Default Work Unit\CatSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="983016379" Name="Cat" ObjectPath="\Switches\Default Work Unit\Characters\Cat"/>
+					</ActionSetSwitch>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2633149251" Name="CatMeow" ObjectPath="\Triggers\Default Work Unit\CatMeow"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2698295934" Name="ChameleonFootSteps" ObjectPath="\Events\Default Work Unit\ChameleonFootSteps" DurationType="OneShot" DurationMin="0.145256" DurationMax="0.461158">
+					<IncludedMemoryFiles>
+						<File Id="133879243" Language="SFX">
+							<ShortName>CatFootStep01.wav</ShortName>
+							<Path>SFX/CatFootStep01_10C4C929.wem</Path>
+						</File>
+						<File Id="289579438" Language="SFX">
+							<ShortName>CatFootStep04.wav</ShortName>
+							<Path>SFX/CatFootStep04_10C4C929.wem</Path>
+						</File>
+						<File Id="483778339" Language="SFX">
+							<ShortName>CatFootStep05.wav</ShortName>
+							<Path>SFX/CatFootStep05_10C4C929.wem</Path>
+						</File>
+						<File Id="607878142" Language="SFX">
+							<ShortName>CatFootStep03.wav</ShortName>
+							<Path>SFX/CatFootStep03_10C4C929.wem</Path>
+						</File>
+						<File Id="776314052" Language="SFX">
+							<ShortName>CatFootStep02.wav</ShortName>
+							<Path>SFX/CatFootStep02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="148164753" Name="ChameleonJump" ObjectPath="\Events\Default Work Unit\ChameleonJump" DurationType="OneShot" DurationMin="1.381979" DurationMax="1.381979">
+					<IncludedMemoryFiles>
+						<File Id="915545166" Language="SFX">
+							<ShortName>ChameleonJump.wav</ShortName>
+							<Path>SFX/ChameleonJump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="202981074" Name="ChameleonSelected" ObjectPath="\Events\Default Work Unit\ChameleonSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="398416717" Name="Chameleon" ObjectPath="\Switches\Default Work Unit\Characters\Chameleon"/>
+					</ActionSetSwitch>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1887853562" Name="ChameleonSound" ObjectPath="\Triggers\Default Work Unit\ChameleonSound"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3018892155" Name="ClimbTailScene1" ObjectPath="\Events\Default Work Unit\ClimbTailScene1" DurationType="OneShot" DurationMin="0.924084" DurationMax="1.098928">
+					<IncludedMemoryFiles>
+						<File Id="566225425" Language="SFX">
+							<ShortName>ClimbPrintsP05.wav</ShortName>
+							<Path>SFX/ClimbPrintsP05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3018892152" Name="ClimbTailScene2" ObjectPath="\Events\Default Work Unit\ClimbTailScene2" DurationType="OneShot" DurationMin="0.882354" DurationMax="0.882354">
+					<IncludedMemoryFiles>
+						<File Id="37154125" Language="SFX">
+							<ShortName>ClimbPrint04.wav</ShortName>
+							<Path>SFX/ClimbPrint04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4158688515" Name="DogBark" ObjectPath="\Events\Default Work Unit\DogBark" DurationType="OneShot" DurationMin="0.786088" DurationMax="0.882354">
+					<IncludedMemoryFiles>
+						<File Id="32238445" Language="SFX">
+							<ShortName>DogBark006.wav</ShortName>
+							<Path>SFX/DogBark006_10C4C929.wem</Path>
+						</File>
+						<File Id="157859316" Language="SFX">
+							<ShortName>DogBark01.wav</ShortName>
+							<Path>SFX/DogBark01_10C4C929.wem</Path>
+						</File>
+						<File Id="293398692" Language="SFX">
+							<ShortName>DogBark02.wav</ShortName>
+							<Path>SFX/DogBark02_10C4C929.wem</Path>
+						</File>
+						<File Id="441761607" Language="SFX">
+							<ShortName>DogBark04.wav</ShortName>
+							<Path>SFX/DogBark04_10C4C929.wem</Path>
+						</File>
+						<File Id="741783941" Language="SFX">
+							<ShortName>DogBark05.wav</ShortName>
+							<Path>SFX/DogBark05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2154718686" Name="DogFootSteps" ObjectPath="\Events\Default Work Unit\DogFootSteps" DurationType="OneShot" DurationMin="0.471937" DurationMax="0.529732">
+					<IncludedMemoryFiles>
+						<File Id="176938474" Language="SFX">
+							<ShortName>DogFootStep01.wav</ShortName>
+							<Path>SFX/DogFootStep01_10C4C929.wem</Path>
+						</File>
+						<File Id="207709237" Language="SFX">
+							<ShortName>DogFootStep05.wav</ShortName>
+							<Path>SFX/DogFootStep05_10C4C929.wem</Path>
+						</File>
+						<File Id="237305732" Language="SFX">
+							<ShortName>DogFootStep02.wav</ShortName>
+							<Path>SFX/DogFootStep02_10C4C929.wem</Path>
+						</File>
+						<File Id="258539454" Language="SFX">
+							<ShortName>DogFootStep04.wav</ShortName>
+							<Path>SFX/DogFootStep04_10C4C929.wem</Path>
+						</File>
+						<File Id="727743629" Language="SFX">
+							<ShortName>DogFootStep03.wav</ShortName>
+							<Path>SFX/DogFootStep03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1879996273" Name="DogJump" ObjectPath="\Events\Default Work Unit\DogJump" DurationType="OneShot" DurationMin="2.023708" DurationMax="2.023708">
+					<IncludedMemoryFiles>
+						<File Id="789056" Language="SFX">
+							<ShortName>DogJump.wav</ShortName>
+							<Path>SFX/DogJump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4114262194" Name="DogSelected" ObjectPath="\Events\Default Work Unit\DogSelected" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="546651181" Name="Dog" ObjectPath="\Switches\Default Work Unit\Characters\Dog"/>
+					</ActionSetSwitch>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="4158688515" Name="DogBark" ObjectPath="\Triggers\Default Work Unit\DogBark"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2225823019" Name="LeverDown" ObjectPath="\Events\Default Work Unit\LeverDown" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<IncludedMemoryFiles>
+						<File Id="334876925" Language="SFX">
+							<ShortName>LeverDown.wav</ShortName>
+							<Path>SFX/LeverDown_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1662764780" Name="LeverUp" ObjectPath="\Events\Default Work Unit\LeverUp" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<IncludedMemoryFiles>
+						<File Id="300375389" Language="SFX">
+							<ShortName>LeverUp.wav</ShortName>
+							<Path>SFX/LeverUp_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1142510350" Name="MainMenuMusicPlay" ObjectPath="\Events\Default Work Unit\MainMenuMusicPlay" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="504573325" Language="SFX">
+							<ShortName>Music-MainMenu-68bpm-L16M-P0.wav</ShortName>
+							<Path>SFX/Music-MainMenu-68bpm-L16M-P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3478063044" Name="mouseHover" ObjectPath="\Events\Default Work Unit\mouseHover" DurationType="OneShot" DurationMin="0.882354" DurationMax="0.882354">
+					<IncludedMemoryFiles>
+						<File Id="789649583" Language="SFX">
+							<ShortName>Hover01_Reverb.wav</ShortName>
+							<Path>SFX/Hover01_Reverb_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2891037199" Name="PetMusicPlay" ObjectPath="\Events\Default Work Unit\PetMusicPlay" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="279185434" Language="SFX">
+							<ShortName>Characters\Music_Background_68bpm_4-4_L16M_P0.wav</ShortName>
+							<Path>SFX/Characters/Music_Background_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="316565971" Language="SFX">
+							<ShortName>Characters\Music_Dog_68bpm_4-4_L16M_P0.wav</ShortName>
+							<Path>SFX/Characters/Music_Dog_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="543499227" Language="SFX">
+							<ShortName>Stinger_Chameleon_68bpm_L1B_P0.wav</ShortName>
+							<Path>SFX/Stinger_Chameleon_68bpm_L1B_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="696646933" Language="SFX">
+							<ShortName>Characters\Music_Chameleon_68bpm_4-4_L16MP0.wav</ShortName>
+							<Path>SFX/Characters/Music_Chameleon_68bpm_4-4_L16MP0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="831017732" Language="SFX">
+							<ShortName>Stinger_CatMeow_68bpm_4-4_L1B_P0.wav</ShortName>
+							<Path>SFX/Stinger_CatMeow_68bpm_4-4_L1B_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="862276616" Language="SFX">
+							<ShortName>Stinger_DogBark_68bpm_L1B_P0.wav</ShortName>
+							<Path>SFX/Stinger_DogBark_68bpm_L1B_P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="950107177" Language="SFX">
+							<ShortName>Characters\Music_Cat_68bpm_4-4_L16M_P0.wav</ShortName>
+							<Path>SFX/Characters/Music_Cat_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1288685234" Name="UIClickPress" ObjectPath="\Events\Default Work Unit\UIClickPress" DurationType="OneShot" DurationMin="0.623919" DurationMax="0.623919">
+					<IncludedMemoryFiles>
+						<File Id="381946402" Language="SFX">
+							<ShortName>ClickA03_Reverb.wav</ShortName>
+							<Path>SFX/ClickA03_Reverb_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1048192572" Name="UIClickRelease" ObjectPath="\Events\Default Work Unit\UIClickRelease" DurationType="OneShot" DurationMin="0.623919" DurationMax="0.623919">
+					<IncludedMemoryFiles>
+						<File Id="988498777" Language="SFX">
+							<ShortName>ClickB03_Reverb.wav</ShortName>
+							<Path>SFX/ClickB03_Reverb_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="398416717" Name="Chameleon" ObjectPath="\Switches\Default Work Unit\Characters\Chameleon" GUID="{6A1C60FE-A6BA-4615-A241-48E784777D13}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="546651181" Name="Dog" ObjectPath="\Switches\Default Work Unit\Characters\Dog" GUID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="983016379" Name="Cat" ObjectPath="\Switches\Default Work Unit\Characters\Cat" GUID="{710C8DAA-1F94-4340-BFFF-FE563208C55A}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1557941045" Name="Characters" ObjectPath="\Switches\Default Work Unit\Characters" GUID="{87CD6810-5F66-4243-9208-E5016BC259C2}">
+					<Switches>
+						<Switch Id="546651181" Name="Dog" ObjectPath="\Switches\Default Work Unit\Characters\Dog" GUID="{E354C390-76FE-43CA-BEE6-8F1C63A438C8}"/>
+						<Switch Id="983016379" Name="Cat" ObjectPath="\Switches\Default Work Unit\Characters\Cat" GUID="{710C8DAA-1F94-4340-BFFF-FE563208C55A}"/>
+						<Switch Id="398416717" Name="Chameleon" ObjectPath="\Switches\Default Work Unit\Characters\Chameleon" GUID="{6A1C60FE-A6BA-4615-A241-48E784777D13}"/>
+						<Switch Id="3650723969" Name="Background" ObjectPath="\Switches\Default Work Unit\Characters\Background" GUID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3650723969" Name="Background" ObjectPath="\Switches\Default Work Unit\Characters\Background" GUID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}">
+					<Switches/>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="1887853562" Name="ChameleonSound" ObjectPath="\Triggers\Default Work Unit\ChameleonSound"/>
+				<Trigger Id="2633149251" Name="CatMeow" ObjectPath="\Triggers\Default Work Unit\CatMeow"/>
+				<Trigger Id="4158688515" Name="DogBark" ObjectPath="\Triggers\Default Work Unit\DogBark"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -605,6 +605,143 @@
 						</MusicSegment>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="UI" ID="{9E393E0E-B9D8-46A0-953F-23D05ECF096A}" ShortID="107379016">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="MainMenuMusic" ID="{F7DF974F-BCF0-4ECC-852F-EC9508CBDFB2}" ShortID="707336344">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="68"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Music_Background_68bpm_4-4_L16M_P0" ID="{78804866-0559-48C5-980D-CCCD340B67CD}" ShortID="147939342">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="61333"/>
+										<Property Name="GridOffsetPreset" Type="int16" Value="56"/>
+										<Property Name="Tempo" Type="Real64" Value="68"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music-MainMenu-68bpm-L16M-P0" ID="{511A878C-5CAF-4865-929B-CAFABA078651}" ShortID="986180959">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music-MainMenu-68bpm-L16M-P0" ID="{5F05ED95-DA29-4292-B9A0-1BBAC2CF5502}">
+													<Language>SFX</Language>
+													<AudioFile>Music-MainMenu-68bpm-L16M-P0.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="504573325"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C9E7AACC-CBFF-47AD-B82E-1F93BA94230E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{65AE4D55-E460-4656-88E9-B86AFDC1F8C8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Music-MainMenu-68bpm-L16M-P0" ID="{1B4CF2E6-8A66-4C9D-B243-35F7F36B2176}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="61333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Music-MainMenu-68bpm-L16M-P0" ID="{5F05ED95-DA29-4292-B9A0-1BBAC2CF5502}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{CAA75E16-BEF6-4EC1-B071-C1DE1B37D428}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{10A15732-30CC-46CD-A1C9-E747D649FBDA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="56470.5882352941"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D18C30E2-1BAA-47E7-A10E-BCA24264AC0F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{142D4F71-92B3-4AE2-942B-C1597628BA13}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{D2C6A4C0-5591-4620-8635-93129FBDE103}" ShortID="705402579">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{B45AE973-F727-4972-83F1-A8E3E0AC9F90}" ShortID="118773755">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Background_68bpm_4-4_L16M_P0" ID="{78804866-0559-48C5-980D-CCCD340B67CD}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

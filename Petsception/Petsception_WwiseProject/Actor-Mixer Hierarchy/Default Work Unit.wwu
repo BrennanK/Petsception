@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Pets" ID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}" PersistMode="Reference"/>
 				<WorkUnit Name="Environment" ID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

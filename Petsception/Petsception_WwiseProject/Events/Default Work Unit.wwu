@@ -152,7 +152,7 @@
 						<Action Name="" ID="{D75C9630-E603-44CA-8E77-A2E2A2EA6E4A}" ShortID="244599123">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="DogJump" ID="{66A35D0A-D67A-43CE-9973-79A0EF8C35D8}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+									<ObjectRef Name="DogJump03" ID="{D381DA04-5872-4DB7-B1D4-1909B0D64457}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -163,7 +163,7 @@
 						<Action Name="" ID="{D8F3B6B5-5C63-482E-8474-E5D060DF9A1B}" ShortID="326499751">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CatJump" ID="{3E57F961-5E72-4DB8-A666-6533141479FF}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+									<ObjectRef Name="CatJump03" ID="{85F659C1-06B8-4476-808A-94343864E6B5}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -174,7 +174,7 @@
 						<Action Name="" ID="{9D8A3F1B-6DBA-4DD7-82AE-1434EFC97185}" ShortID="946642192">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ChameleonJump" ID="{995100B4-BFA2-42D9-AFB1-F54E03059A22}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+									<ObjectRef Name="ChameleonJump03" ID="{6FB230AF-E3BC-4CA7-BAAD-4EACF51B094E}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -211,6 +211,67 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ClimbPrint04" ID="{5684867A-F5E6-4DE6-ACD2-9D7CD52AB6DF}" WorkUnitID="{50512DBD-FB53-408F-B3B1-8AEBA99A0416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DogBark" ID="{C8706DF0-74D3-4E96-B456-FE445C254FE6}">
+					<ChildrenList>
+						<Action Name="" ID="{E3306FCC-8D94-4CBD-AB1B-0B6BFA37F8D3}" ShortID="1046756790">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DogBark" ID="{EFD4EB58-1549-4B64-9B56-78FC6297E9C9}" WorkUnitID="{3A7EC7C6-5156-441B-893A-FC7F8ED0AFA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UIClickPress" ID="{D57C90D6-67FF-4AB4-BF61-5D38E52D242D}">
+					<ChildrenList>
+						<Action Name="" ID="{22BBCF7E-7851-46A7-B510-08172510300E}" ShortID="496858942">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClickA03_moreReverb" ID="{A53EB4FF-B8DB-419A-B3B7-CA4CB0B92CFA}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UIClickRelease" ID="{C28FB375-8677-41E0-B14E-E350C3B13CD0}">
+					<ChildrenList>
+						<Action Name="" ID="{9EB8C754-6B61-4F21-A9AB-326A0D485D66}" ShortID="987844999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClickB03_moreReverb" ID="{B82BBF7A-776F-4456-8EFB-208286FD9B29}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mouseHover" ID="{44511AA7-94B1-48A6-85BC-703856AA72D8}">
+					<ChildrenList>
+						<Action Name="" ID="{0629B32A-7C84-486B-8C46-8B9492FB2BBA}" ShortID="286977613">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hover01_Reverb" ID="{7B809868-4527-40FF-A550-FEF6B7612D71}" WorkUnitID="{39F2F2A3-1FF6-45BA-9234-B69CBCCD2CEB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MainMenuMusicPlay" ID="{C9AA70EE-22BF-443D-9494-C0F27B9D2653}">
+					<ChildrenList>
+						<Action Name="" ID="{B1CA7558-87D0-4333-BC8A-5782DC7C49EE}" ShortID="290305061">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{1C704ED3-43F7-4BD3-9E25-F3DCA4F2008D}" ShortID="143819431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuMusic" ID="{F7DF974F-BCF0-4ECC-852F-EC9508CBDFB2}" WorkUnitID="{D3432EFF-D973-41FC-8890-462A96FEEAA9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

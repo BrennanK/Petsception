@@ -798,6 +798,441 @@
 								<ActiveSource Name="CatJump" ID="{FF5D8C4C-7E08-4760-9DA1-21221C60C024}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="CatJump02" ID="{7AA542CE-3C7F-4F32-A02E-F6809677C061}" ShortID="162266628">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PetJumpSounds" ID="{8D7CC4C5-54E3-47CA-804A-9A48290DA613}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CatJump02" ID="{7CFDD3D4-2212-4EAE-B9A2-A4D03FE0F077}">
+									<Language>SFX</Language>
+									<AudioFile>CatJump02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="926479325"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CatJump02" ID="{7CFDD3D4-2212-4EAE-B9A2-A4D03FE0F077}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DogJump02" ID="{DC90D284-F0AD-414C-8DB6-A3291F862D7B}" ShortID="818633894">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PetJumpSounds" ID="{8D7CC4C5-54E3-47CA-804A-9A48290DA613}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DogJump02" ID="{889AC555-34B1-4DE5-8EE7-B8F28C9600DE}">
+									<Language>SFX</Language>
+									<AudioFile>DogJump02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="941400693"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DogJump02" ID="{889AC555-34B1-4DE5-8EE7-B8F28C9600DE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ChameleonJump02" ID="{BB8E9C78-8CEF-41C8-AFC6-D267395B3517}" ShortID="565035865">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PetJumpSounds" ID="{8D7CC4C5-54E3-47CA-804A-9A48290DA613}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChameleonJump02" ID="{73EE4B14-792A-4C72-91D5-3B1DBA0E117A}">
+									<Language>SFX</Language>
+									<AudioFile>ChameleonJump02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="599943335"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ChameleonJump02" ID="{73EE4B14-792A-4C72-91D5-3B1DBA0E117A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ChameleonJump03" ID="{6FB230AF-E3BC-4CA7-BAAD-4EACF51B094E}" ShortID="659766090">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChameleonJump03" ID="{F2225C09-2F16-4ADF-85D2-32BC222DACEF}">
+									<Language>SFX</Language>
+									<AudioFile>ChameleonJump03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1019271202"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ChameleonJump03" ID="{F2225C09-2F16-4ADF-85D2-32BC222DACEF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CatJump03" ID="{85F659C1-06B8-4476-808A-94343864E6B5}" ShortID="649418930">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CatJump03" ID="{3849DDB4-9EE1-4F91-9F22-62EA4ECFAB20}">
+									<Language>SFX</Language>
+									<AudioFile>CatJump03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="644818697"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CatJump03" ID="{3849DDB4-9EE1-4F91-9F22-62EA4ECFAB20}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DogJump03" ID="{D381DA04-5872-4DB7-B1D4-1909B0D64457}" ShortID="106489032">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DogJump03" ID="{E8D9726A-558C-4E30-B9BD-562B1BA75B2A}">
+									<Language>SFX</Language>
+									<AudioFile>DogJump03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="123952442"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DogJump03" ID="{E8D9726A-558C-4E30-B9BD-562B1BA75B2A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Abilities" ID="{B9473122-64B9-41CE-B30C-30E76021FDB1}" ShortID="14693500">
+					<ChildrenList>
+						<RandomSequenceContainer Name="DogBark" ID="{EFD4EB58-1549-4B64-9B56-78FC6297E9C9}" ShortID="397465161">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{06EFCC08-CDA5-47A6-9ED6-E05125810365}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DogBark01" ID="{437932C5-5D8C-48E7-B256-E3DCDC2B910F}" ShortID="289240610">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{10CBDC29-017F-4600-8400-9FCB37CFB322}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DogBark01" ID="{534179B7-15B6-43FD-A34C-EAFC598BE106}">
+											<Language>SFX</Language>
+											<AudioFile>DogBark01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157859316"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="DogBark01" ID="{534179B7-15B6-43FD-A34C-EAFC598BE106}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DogBark02" ID="{70B6CFC6-F26E-4546-BCB9-6107D29F382F}" ShortID="147405829">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6505E997-F454-48AE-9E1B-734D4A10DF1A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DogBark02" ID="{1EBA5DF9-79CA-4CF7-A2BE-3838AFF78FFA}">
+											<Language>SFX</Language>
+											<AudioFile>DogBark02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="293398692"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="DogBark02" ID="{1EBA5DF9-79CA-4CF7-A2BE-3838AFF78FFA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DogBark03" ID="{64C7417C-693F-413F-9A9D-FEB4829506DC}" ShortID="796930">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ED0A4718-3B9A-4017-A081-6DBA0CFD2E38}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DogBark03" ID="{2984B448-FC8B-444D-947B-81F530331231}">
+											<Language>SFX</Language>
+											<AudioFile>DogBark03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="760661789"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="DogBark03" ID="{2984B448-FC8B-444D-947B-81F530331231}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DogBark04" ID="{389F79F4-EA3F-416B-9D31-29F342A1C9DB}" ShortID="955125091">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{201AD536-F9A3-4342-81AF-B29D7AD6E1FA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DogBark04" ID="{DBAE279F-B58A-4447-A962-E36AA3BC9977}">
+											<Language>SFX</Language>
+											<AudioFile>DogBark04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="441761607"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="DogBark04" ID="{DBAE279F-B58A-4447-A962-E36AA3BC9977}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DogBark05" ID="{A2204CB3-935C-47D7-AD92-B126F7A409E4}" ShortID="943057068">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4420A631-A648-46BE-8C05-C445ECDD038C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DogBark05" ID="{59A6F6E1-0A2E-462B-9637-1FF89B71EEA5}">
+											<Language>SFX</Language>
+											<AudioFile>DogBark05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="741783941"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="DogBark05" ID="{59A6F6E1-0A2E-462B-9637-1FF89B71EEA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DogBark006" ID="{3A4ECA65-B2A7-42C4-B98E-E7B1A17835E7}" ShortID="867483578">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1DAAB18A-0A4F-4429-AA60-C345C49206A9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>72</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C0269228-FA3D-4106-B9AC-1E5BDB6BD4B1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DogBark006" ID="{15A8CFDE-58E5-45A3-A74D-614374888306}">
+											<Language>SFX</Language>
+											<AudioFile>DogBark006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="32238445"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="DogBark006" ID="{15A8CFDE-58E5-45A3-A74D-614374888306}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

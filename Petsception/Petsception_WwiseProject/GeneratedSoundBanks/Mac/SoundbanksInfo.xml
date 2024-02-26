@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4001403224">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2222911254">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -23,7 +23,7 @@
 				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154448043" Language="SFX" Hash="769814160">
+		<SoundBank Id="4154448043" Language="SFX" Hash="483726017">
 			<ObjectPath>\SoundBanks\Default Work Unit\Petsception</ObjectPath>
 			<ShortName>Petsception</ShortName>
 			<Path>Petsception.bnk</Path>
@@ -57,11 +57,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="244401571" Name="CatJump" ObjectPath="\Events\Default Work Unit\CatJump" DurationType="OneShot" DurationMin="1.323854" DurationMax="1.323854">
+				<Event Id="244401571" Name="CatJump" ObjectPath="\Events\Default Work Unit\CatJump" DurationType="OneShot" DurationMin="1.544125" DurationMax="1.544125">
 					<IncludedMemoryFiles>
-						<File Id="680362066" Language="SFX">
-							<ShortName>CatJump.wav</ShortName>
-							<Path>SFX/CatJump_10C4C929.wem</Path>
+						<File Id="644818697" Language="SFX">
+							<ShortName>CatJump03.wav</ShortName>
+							<Path>SFX/CatJump03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -97,11 +97,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="148164753" Name="ChameleonJump" ObjectPath="\Events\Default Work Unit\ChameleonJump" DurationType="OneShot" DurationMin="1.381979" DurationMax="1.381979">
+				<Event Id="148164753" Name="ChameleonJump" ObjectPath="\Events\Default Work Unit\ChameleonJump" DurationType="OneShot" DurationMin="1.544125" DurationMax="1.544125">
 					<IncludedMemoryFiles>
-						<File Id="915545166" Language="SFX">
-							<ShortName>ChameleonJump.wav</ShortName>
-							<Path>SFX/ChameleonJump_10C4C929.wem</Path>
+						<File Id="1019271202" Language="SFX">
+							<ShortName>ChameleonJump03.wav</ShortName>
+							<Path>SFX/ChameleonJump03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -135,6 +135,30 @@
 						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="4158688515" Name="DogBark" ObjectPath="\Events\Default Work Unit\DogBark" DurationType="OneShot" DurationMin="0.786088" DurationMax="0.882354">
+					<IncludedMemoryFiles>
+						<File Id="32238445" Language="SFX">
+							<ShortName>DogBark006.wav</ShortName>
+							<Path>SFX/DogBark006_10C4C929.wem</Path>
+						</File>
+						<File Id="157859316" Language="SFX">
+							<ShortName>DogBark01.wav</ShortName>
+							<Path>SFX/DogBark01_10C4C929.wem</Path>
+						</File>
+						<File Id="293398692" Language="SFX">
+							<ShortName>DogBark02.wav</ShortName>
+							<Path>SFX/DogBark02_10C4C929.wem</Path>
+						</File>
+						<File Id="441761607" Language="SFX">
+							<ShortName>DogBark04.wav</ShortName>
+							<Path>SFX/DogBark04_10C4C929.wem</Path>
+						</File>
+						<File Id="741783941" Language="SFX">
+							<ShortName>DogBark05.wav</ShortName>
+							<Path>SFX/DogBark05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2154718686" Name="DogFootSteps" ObjectPath="\Events\Default Work Unit\DogFootSteps" DurationType="OneShot" DurationMin="0.471937" DurationMax="0.529732">
 					<IncludedMemoryFiles>
 						<File Id="176938474" Language="SFX">
@@ -159,11 +183,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1879996273" Name="DogJump" ObjectPath="\Events\Default Work Unit\DogJump" DurationType="OneShot" DurationMin="2.023708" DurationMax="2.023708">
+				<Event Id="1879996273" Name="DogJump" ObjectPath="\Events\Default Work Unit\DogJump" DurationType="OneShot" DurationMin="1.544125" DurationMax="1.544125">
 					<IncludedMemoryFiles>
-						<File Id="789056" Language="SFX">
-							<ShortName>DogJump.wav</ShortName>
-							<Path>SFX/DogJump_10C4C929.wem</Path>
+						<File Id="123952442" Language="SFX">
+							<ShortName>DogJump03.wav</ShortName>
+							<Path>SFX/DogJump03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -197,6 +221,22 @@
 						<AuxBus Id="215064384" Name="ClimbPrintsReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ClimbPrintsReverb"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="1142510350" Name="MainMenuMusicPlay" ObjectPath="\Events\Default Work Unit\MainMenuMusicPlay" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="504573325" Language="SFX">
+							<ShortName>Music-MainMenu-68bpm-L16M-P0.wav</ShortName>
+							<Path>SFX/Music-MainMenu-68bpm-L16M-P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3478063044" Name="mouseHover" ObjectPath="\Events\Default Work Unit\mouseHover" DurationType="OneShot" DurationMin="0.882354" DurationMax="0.882354">
+					<IncludedMemoryFiles>
+						<File Id="789649583" Language="SFX">
+							<ShortName>Hover01_Reverb.wav</ShortName>
+							<Path>SFX/Hover01_Reverb_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2891037199" Name="PetMusicPlay" ObjectPath="\Events\Default Work Unit\PetMusicPlay" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="279185434" Language="SFX">
@@ -226,6 +266,22 @@
 						<File Id="950107177" Language="SFX">
 							<ShortName>Characters\Music_Cat_68bpm_4-4_L16M_P0.wav</ShortName>
 							<Path>SFX/Characters/Music_Cat_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1288685234" Name="UIClickPress" ObjectPath="\Events\Default Work Unit\UIClickPress" DurationType="OneShot" DurationMin="1.544125" DurationMax="1.544125">
+					<IncludedMemoryFiles>
+						<File Id="422992380" Language="SFX">
+							<ShortName>ClickA03_moreReverb.wav</ShortName>
+							<Path>SFX/ClickA03_moreReverb_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1048192572" Name="UIClickRelease" ObjectPath="\Events\Default Work Unit\UIClickRelease" DurationType="OneShot" DurationMin="1.544125" DurationMax="1.544125">
+					<IncludedMemoryFiles>
+						<File Id="724356211" Language="SFX">
+							<ShortName>ClickB03_moreReverb.wav</ShortName>
+							<Path>SFX/ClickB03_moreReverb_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

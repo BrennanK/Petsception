@@ -1,0 +1,65 @@
+Event	ID	Name			Wwise Object Path	Notes
+	148164753	ChameleonJump			\Default Work Unit\ChameleonJump	
+	202981074	ChameleonSelected			\Default Work Unit\ChameleonSelected	
+	244401571	CatJump			\Default Work Unit\CatJump	
+	626769978	BackgroundMusic			\Default Work Unit\BackgroundMusic	
+	1048192572	UIClickRelease			\Default Work Unit\UIClickRelease	
+	1142510350	MainMenuMusicPlay			\Default Work Unit\MainMenuMusicPlay	
+	1288685234	UIClickPress			\Default Work Unit\UIClickPress	
+	1662764780	LeverUp			\Default Work Unit\LeverUp	
+	1879996273	DogJump			\Default Work Unit\DogJump	
+	2154718686	DogFootSteps			\Default Work Unit\DogFootSteps	
+	2225823019	LeverDown			\Default Work Unit\LeverDown	
+	2436923116	CatFootSteps			\Default Work Unit\CatFootSteps	
+	2698295934	ChameleonFootSteps			\Default Work Unit\ChameleonFootSteps	
+	2891037199	PetMusicPlay			\Default Work Unit\PetMusicPlay	
+	3018892152	ClimbTailScene2			\Default Work Unit\ClimbTailScene2	
+	3018892155	ClimbTailScene1			\Default Work Unit\ClimbTailScene1	
+	3024246768	CatSelected			\Default Work Unit\CatSelected	
+	3478063044	mouseHover			\Default Work Unit\mouseHover	
+	4114262194	DogSelected			\Default Work Unit\DogSelected	
+	4158688515	DogBark			\Default Work Unit\DogBark	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	1887853562	ChameleonSound			\Default Work Unit\ChameleonSound	
+	2633149251	CatMeow			\Default Work Unit\CatMeow	
+	4158688515	DogBark			\Default Work Unit\DogBark	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2998002419	Boost_3dB_10KHz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	789056	DogJump	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Jumps\DogJump		194340
+	32238445	DogBark006	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogBark006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark006		169476
+	37154125	ClimbPrint04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\ClimbPrint04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ClimbPrint\ClimbPrint04		169476
+	133879243	CatFootStep01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep01		96064
+	157859316	DogBark01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogBark01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark01		169476
+	176938474	DogFootStep01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep01		96064
+	207709237	DogFootStep05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep05		96064
+	237305732	DogFootStep02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep02		96064
+	258539454	DogFootStep04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep04		96064
+	279185434	Music_Background_68bpm_4-4_L16M_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Characters\Music_Background_68bpm_4-4_L16M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Music_Background_68bpm_4-4_L16M_P0		11520064
+	289579438	CatFootStep04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep04		96064
+	293398692	DogBark02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogBark02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark02		169476
+	300375389	LeverUp	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\LeverUp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Lever\LeverUp		96064
+	316565971	Characters	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Characters\Music_Dog_68bpm_4-4_L16M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Characters		11520064
+	334876925	LeverDown	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\LeverDown_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Lever\LeverDown		96064
+	381946402	ClickA03_Reverb	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\ClickA03_Reverb_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Clicks\ClickA03_Reverb		169476
+	441761607	DogBark04	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogBark04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark04		169476
+	483778339	CatFootStep05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep05		96064
+	504573325	Music-MainMenu-68bpm-L16M-P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Music-MainMenu-68bpm-L16M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\UI\MainMenuMusic\Music_Background_68bpm_4-4_L16M_P0\Music-MainMenu-68bpm-L16M-P0		11776080
+	543499227	Stinger_Chameleon_68bpm_L1B_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Stinger_Chameleon_68bpm_L1B_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\Stinger_Chameleon_68bpm_L1B_P0\Stinger_Chameleon_68bpm_L1B_P0		84770
+	566225425	ClimbPrint01	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\ClimbPrintsP05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ClimbPrint\ClimbPrint01		169476
+	607878142	CatFootStep03	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep03		96064
+	680362066	CatJump	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Jumps\CatJump		127154
+	696646933	Characters	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Characters\Music_Chameleon_68bpm_4-4_L16MP0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Characters		11520064
+	727743629	DogFootStep03	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogFootStep03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\DogFootSteps\DogFootStep03		96064
+	741783941	DogBark05	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\DogBark05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Abilities\DogBark\DogBark05		169476
+	776314052	CatFootStep02	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\CatFootStep02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\FootSteps\CatFootSteps\CatFootStep02		96064
+	789649583	Hover01_Reverb	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Hover01_Reverb_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Hover01_Reverb		169476
+	831017732	Stinger_CatMeow_68bpm_4-4_L1B_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Stinger_CatMeow_68bpm_4-4_L1B_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\Stinger_CatMeow_68bpm_4-4_L1B_P0\Stinger_CatMeow_68bpm_4-4_L1B_P0		169476
+	862276616	Stinger_DogBark_68bpm_L1B_P0	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Stinger_DogBark_68bpm_L1B_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\Stinger_DogBark_68bpm_L1B_P0\Stinger_DogBark_68bpm_L1B_P0		84616
+	915545166	ChameleonJump	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\ChameleonJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pets\Jumps\ChameleonJump		132734
+	950107177	Characters	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\Characters\Music_Cat_68bpm_4-4_L16M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\PetMusic\Characters\Characters		11520064
+	988498777	ClickB03_Reverb	Y:\Documents\GitHub\Petsception\Petsception\Petsception_WwiseProject\.cache\Mac\SFX\ClickB03_Reverb_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Clicks\ClickB03_Reverb		169476
+

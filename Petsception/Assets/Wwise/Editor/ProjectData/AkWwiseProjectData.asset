@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 80f35687b51afe44a0b5859c63c503d9
     GuidInternal: 
-    m_lastTime: -8584929572407827019
+    m_lastTime: -8584926942709696304
     List:
     - name: ClimbPrints
       guid: 64b6ecb73734fe468b2820a53cf2e8a3
@@ -182,6 +182,26 @@ MonoBehaviour:
         ObjectType: 1
         guid: 7a7f0f7ee8f9ae42bb71568b550f4d80
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SmallReverb
+    - name: UI
+      guid: af4fb6dafb78644dbe29c436498d4ab0
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80f35687b51afe44a0b5859c63c503d9
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 08ccef06a5cda6479ed6e05125810365
+      - ElementName: UI
+        ObjectType: 2
+        guid: af4fb6dafb78644dbe29c436498d4ab0
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/UI
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
@@ -194,7 +214,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 452a4a91c976a444abe43b1c474cebd8
     GuidInternal: 
-    m_lastTime: -8584929563502426032
+    m_lastTime: -8584927018594496583
     List:
     - name: Petsception
       guid: 1ab22a96a0e9354f855fc46c3a32dd89
@@ -222,7 +242,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: ad8fa1412690ef4abe2d31631ad2312b
     GuidInternal: 
-    m_lastTime: -8584929563502722811
+    m_lastTime: -8584926931220229377
     List:
     - name: BackgroundMusic
       guid: c3d4b04087e82741a8e13bb6cf786710
@@ -273,8 +293,8 @@ MonoBehaviour:
         guid: 201a77b794a66140aac18d731f7d9eeb
       Path: Events/Default Work Unit/CatJump
       maxAttenuation: 0
-      maxDuration: 1.323854
-      minDuration: 1.323854
+      maxDuration: 1.544125
+      minDuration: 1.544125
     - name: CatSelected
       guid: ed0b10030db4834a8f070d52cf1c35ee
       id: 3024246768
@@ -324,8 +344,8 @@ MonoBehaviour:
         guid: fcf8ae2a8fd18c44b05168d563a30342
       Path: Events/Default Work Unit/ChameleonJump
       maxAttenuation: 0
-      maxDuration: 1.381979
-      minDuration: 1.381979
+      maxDuration: 1.544125
+      minDuration: 1.544125
     - name: ChameleonSelected
       guid: 278e7479a4a63643af85ffecfe4ba07f
       id: 202981074
@@ -377,6 +397,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.882354
       minDuration: 0.882354
+    - name: DogBark
+      guid: f06d70c8d374964eb456fe445c254fe6
+      id: 4158688515
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: DogBark
+        ObjectType: 3
+        guid: f06d70c8d374964eb456fe445c254fe6
+      Path: Events/Default Work Unit/DogBark
+      maxAttenuation: 0
+      maxDuration: 0.882354
+      minDuration: 0.786088
     - name: DogFootSteps
       guid: a962f89cc01a2440ba7bb679316f2307
       id: 2154718686
@@ -409,8 +446,8 @@ MonoBehaviour:
         guid: 7a18990c9c1b7a46b33914dbfec3ce28
       Path: Events/Default Work Unit/DogJump
       maxAttenuation: 0
-      maxDuration: 2.023708
-      minDuration: 2.023708
+      maxDuration: 1.544125
+      minDuration: 1.544125
     - name: DogSelected
       guid: 3940477d90208146b39b61da0e51ca69
       id: 4114262194
@@ -462,6 +499,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.5
       minDuration: 0.5
+    - name: MainMenuMusicPlay
+      guid: ee70aac9bf223d449494c0f27b9d2653
+      id: 1142510350
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: MainMenuMusicPlay
+        ObjectType: 3
+        guid: ee70aac9bf223d449494c0f27b9d2653
+      Path: Events/Default Work Unit/MainMenuMusicPlay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: mouseHover
+      guid: a71a5144b194a64885bc703856aa72d8
+      id: 3478063044
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: mouseHover
+        ObjectType: 3
+        guid: a71a5144b194a64885bc703856aa72d8
+      Path: Events/Default Work Unit/mouseHover
+      maxAttenuation: 0
+      maxDuration: 0.882354
+      minDuration: 0.882354
     - name: PetMusicPlay
       guid: 91ed431422036d4ba6708399db870e07
       id: 2891037199
@@ -479,6 +550,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: UIClickPress
+      guid: d6907cd5ff67b44abf615d38e52d242d
+      id: 1288685234
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: UIClickPress
+        ObjectType: 3
+        guid: d6907cd5ff67b44abf615d38e52d242d
+      Path: Events/Default Work Unit/UIClickPress
+      maxAttenuation: 0
+      maxDuration: 1.544125
+      minDuration: 1.544125
+    - name: UIClickRelease
+      guid: 75b38fc27786e041b14ee350c3b13cd0
+      id: 1048192572
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad8fa1412690ef4abe2d31631ad2312b
+      - ElementName: UIClickRelease
+        ObjectType: 3
+        guid: 75b38fc27786e041b14ee350c3b13cd0
+      Path: Events/Default Work Unit/UIClickRelease
+      maxAttenuation: 0
+      maxDuration: 1.544125
+      minDuration: 1.544125
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -674,7 +779,7 @@ MonoBehaviour:
         guid: b67906b853740540a7b354bd3afc2c2d
       Path: Triggers/Default Work Unit/DogBark
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000
+  ExpandedWaapiItemIds: 0500000006000000070000001b0000001c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

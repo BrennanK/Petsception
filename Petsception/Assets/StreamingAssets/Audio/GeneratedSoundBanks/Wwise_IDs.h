@@ -22,12 +22,17 @@ namespace AK
         static const AkUniqueID CHAMELEONSELECTED = 202981074U;
         static const AkUniqueID CLIMBTAILSCENE1 = 3018892155U;
         static const AkUniqueID CLIMBTAILSCENE2 = 3018892152U;
+        static const AkUniqueID DOGBARK = 4158688515U;
         static const AkUniqueID DOGFOOTSTEPS = 2154718686U;
         static const AkUniqueID DOGJUMP = 1879996273U;
         static const AkUniqueID DOGSELECTED = 4114262194U;
         static const AkUniqueID LEVERDOWN = 2225823019U;
         static const AkUniqueID LEVERUP = 1662764780U;
+        static const AkUniqueID MAINMENUMUSICPLAY = 1142510350U;
+        static const AkUniqueID MOUSEHOVER = 3478063044U;
         static const AkUniqueID PETMUSICPLAY = 2891037199U;
+        static const AkUniqueID UICLICKPRESS = 1288685234U;
+        static const AkUniqueID UICLICKRELEASE = 1048192572U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -73,6 +78,7 @@ namespace AK
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID PETJUMPSOUNDS = 3138133244U;
         static const AkUniqueID SFX = 393239870U;
+        static const AkUniqueID UI = 1551306167U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
