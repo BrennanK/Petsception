@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{8756F380-1AB5-44FE-A0B5-859C63C503D9}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{88D0412B-CDCB-4BAE-86D0-CBF15454ADB9}" WorkUnitID="{9F07BC39-4055-4DB0-9C3C-AE6A6E7B8304}"/>
@@ -91,8 +98,8 @@
 								<DuckItem>
 									<BusRef Name="Music" ID="{66EBD2E1-09B8-41C4-A18E-A8F36322470D}"/>
 									<DuckingParam>
-										<Volume>-3</Volume>
-										<FadeInTime>0.5</FadeInTime>
+										<Volume>-1</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
 										<FadeOutTime>0.100000001490116</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
 									</DuckingParam>

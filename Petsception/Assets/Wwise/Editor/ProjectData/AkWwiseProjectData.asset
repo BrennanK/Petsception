@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 80f35687b51afe44a0b5859c63c503d9
     GuidInternal: 
-    m_lastTime: -8584926942709696304
+    m_lastTime: -8584925032767484461
     List:
     - name: ClimbPrints
       guid: 64b6ecb73734fe468b2820a53cf2e8a3
@@ -378,8 +378,8 @@ MonoBehaviour:
         guid: bd431c44da50cf48b3c9478591bc6fba
       Path: Events/Default Work Unit/ClimbTailScene1
       maxAttenuation: 0
-      maxDuration: 1.098928
-      minDuration: 0.924084
+      maxDuration: 1.111697
+      minDuration: 0.934822
     - name: ClimbTailScene2
       guid: f1b3be16c76d844da024f9c4678c7c07
       id: 3018892152
