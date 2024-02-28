@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2222911254">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2666932812">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -23,7 +23,7 @@
 				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154448043" Language="SFX" Hash="483726017">
+		<SoundBank Id="4154448043" Language="SFX" Hash="2316124701">
 			<ObjectPath>\SoundBanks\Default Work Unit\Petsception</ObjectPath>
 			<ShortName>Petsception</ShortName>
 			<Path>Petsception.bnk</Path>
@@ -113,7 +113,7 @@
 						<ActionTriggerEntry Id="1887853562" Name="ChameleonSound" ObjectPath="\Triggers\Default Work Unit\ChameleonSound"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="3018892155" Name="ClimbTailScene1" ObjectPath="\Events\Default Work Unit\ClimbTailScene1" DurationType="OneShot" DurationMin="0.924084" DurationMax="1.098928">
+				<Event Id="3018892155" Name="ClimbTailScene1" ObjectPath="\Events\Default Work Unit\ClimbTailScene1" DurationType="OneShot" DurationMin="0.934822" DurationMax="1.111697">
 					<IncludedMemoryFiles>
 						<File Id="566225425" Language="SFX">
 							<ShortName>ClimbPrintsP05.wav</ShortName>
@@ -239,33 +239,37 @@
 				</Event>
 				<Event Id="2891037199" Name="PetMusicPlay" ObjectPath="\Events\Default Work Unit\PetMusicPlay" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="279185434" Language="SFX">
-							<ShortName>Characters\Music_Background_68bpm_4-4_L16M_P0.wav</ShortName>
-							<Path>SFX/Characters/Music_Background_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
-						</File>
-						<File Id="316565971" Language="SFX">
-							<ShortName>Characters\Music_Dog_68bpm_4-4_L16M_P0.wav</ShortName>
-							<Path>SFX/Characters/Music_Dog_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
+						<File Id="531538477" Language="SFX">
+							<ShortName>Music-DogTheme-68bpm-L16M-P0.wav</ShortName>
+							<Path>SFX/Music-DogTheme-68bpm-L16M-P0_D79FB2B7.wem</Path>
 						</File>
 						<File Id="543499227" Language="SFX">
 							<ShortName>Stinger_Chameleon_68bpm_L1B_P0.wav</ShortName>
 							<Path>SFX/Stinger_Chameleon_68bpm_L1B_P0_D79FB2B7.wem</Path>
 						</File>
-						<File Id="696646933" Language="SFX">
-							<ShortName>Characters\Music_Chameleon_68bpm_4-4_L16MP0.wav</ShortName>
-							<Path>SFX/Characters/Music_Chameleon_68bpm_4-4_L16MP0_D79FB2B7.wem</Path>
+						<File Id="582136034" Language="SFX">
+							<ShortName>Music-CatTheme-68bpm-L16M-P0.wav</ShortName>
+							<Path>SFX/Music-CatTheme-68bpm-L16M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="727485558" Language="SFX">
+							<ShortName>Music-ChameleonV2-68bpm-L16M-P0.wav</ShortName>
+							<Path>SFX/Music-ChameleonV2-68bpm-L16M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="793957850" Language="SFX">
+							<ShortName>BGMV1.wav</ShortName>
+							<Path>SFX/BGMV1_D79FB2B7.wem</Path>
 						</File>
 						<File Id="831017732" Language="SFX">
 							<ShortName>Stinger_CatMeow_68bpm_4-4_L1B_P0.wav</ShortName>
 							<Path>SFX/Stinger_CatMeow_68bpm_4-4_L1B_P0_D79FB2B7.wem</Path>
 						</File>
+						<File Id="831578313" Language="SFX">
+							<ShortName>BGMV2.wav</ShortName>
+							<Path>SFX/BGMV2_D79FB2B7.wem</Path>
+						</File>
 						<File Id="862276616" Language="SFX">
 							<ShortName>Stinger_DogBark_68bpm_L1B_P0.wav</ShortName>
 							<Path>SFX/Stinger_DogBark_68bpm_L1B_P0_D79FB2B7.wem</Path>
-						</File>
-						<File Id="950107177" Language="SFX">
-							<ShortName>Characters\Music_Cat_68bpm_4-4_L16M_P0.wav</ShortName>
-							<Path>SFX/Characters/Music_Cat_68bpm_4-4_L16M_P0_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

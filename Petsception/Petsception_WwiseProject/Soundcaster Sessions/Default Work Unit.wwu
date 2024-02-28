@@ -90,7 +90,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Background" ID="{9CDC60FB-1EB0-4981-8733-CD6F040FA1EA}"/>
+						<CurrentSwitchRef Name="Cat" ID="{710C8DAA-1F94-4340-BFFF-FE563208C55A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
